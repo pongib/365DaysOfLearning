@@ -42,3 +42,24 @@ My goal is to get that certificate for my first data learning path. I will focus
 
 **Thoughts**: I was just curious about what if I want to import hundreds of tables to CloudSql what and I think cloud console itself doesn't easy to do it. After googling it, found out in a document that needs to use gsutil and gcloud sql combined and write some script with for loop to do it.
 [Ref](https://cloud.google.com/sql/docs/mysql/import-export/importing)
+
+## Day 3: Jan 4, 2020
+
+**TIL**: Datastore No-Ops
+
+* When to use and not use it.
+* Datastore organization it like compare word with SQL
+
+| Relational    | DataStore     |
+| ------------- | ------------- |
+| Table | Kind  |
+| Row  | Entity  |
+| Column  | Property  |
+| Primary Key | Key  |
+
+* How to create entity, index, combinded index, and hierarchy.
+* Index pitfall, Explode index.
+* Stong and Eventually Consistent.
+* Their query is like SQL and it very surprise me a lot. I thought it will like mongodb.
+
+**Thoughts**: Why every product has its name, actually all concept is the same? The trick for remembering it is imagined with pictures and mapping it with old knowledge, in this case, is SQL.

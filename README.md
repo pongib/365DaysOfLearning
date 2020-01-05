@@ -63,3 +63,15 @@ My goal is to get that certificate for my first data learning path. I will focus
 * Their query is like SQL and it very surprise me a lot. I thought it will like mongodb.
 
 **Thoughts**: Why every product has its name, actually all concept is the same? The trick for remembering it is imagined with pictures and mapping it with old knowledge, in this case, is SQL.
+
+## Day 4: Jan 5, 2020
+
+**TIL**: BigTable
+
+* Some history.
+* BigTable Architecture, Design and Schema.
+* Pitfall for design row key lead to hotspot.
+* SST stand for sorted string table.
+
+**Thoughts**: This make me a lot of time and curious and need to read it in their own google document and some deep technical (at lease for me) such as [SSTable](https://www.igvita.com/2012/02/06/sstable-and-log-structured-storage-leveldb/) format, for sure I don't understand all technical deep dive detail but I found it very fun. About the recommend practice it always update
+last time it said you can use hashed string as row key but this time it not recommend anymore so I need to refresh my knowledge with their [document](https://cloud.google.com/bigtable/docs/schema-design).

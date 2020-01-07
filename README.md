@@ -84,3 +84,10 @@ last time it said you can use hashed string as row key but this time it not reco
 * Avoid hotspot.
 
 **Thoughts**: It my first day for working after long holiday. And found a lot of interrupt so I cannot focus on topic long enough. So I must make an easy environtment to learn.
+
+
+## Day 6: Jan 7, 2020
+
+**TIL**: Do hand on for cloud Spanner and review all learned topic read everything via dossier. Try to quiz that I passed found out that I can't remember that question and it good for test my understanding again without memorize form last quiz, It pure understanding. I will take it again after 3, 7, 14 days.
+
+**Thoughts**: It good for review conetent and take quiz again it make more clear understanding and make my memorize strong for recall those topic.

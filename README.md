@@ -117,4 +117,4 @@ last time it said you can use hashed string as row key but this time it not reco
 
 **TIL**: Learn about dataflow best pratice and look their handon and try to imagine to use it in real world. And concept how to handle late data.
 
-**Thoughts**: Second learn make more clear.
+**Thoughts**: Second learn make more clear or it depend on teacher or me in past, concept about watermark, window, trigger it not clear when I learn at cousera but learn this second time it more clear and find out it not complicate thing like a was thought. 

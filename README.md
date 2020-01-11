@@ -112,3 +112,9 @@ last time it said you can use hashed string as row key but this time it not reco
 **TIL**: Try to help my college to deploy model on aws sagemaker and didn't work, its cli is not easy to use also document haha. Learn a bit about process data with batch and stream and dataflow that can solve challenge about unify batch and stream data and out of order data.
 
 **Thoughts**: Both platform aws and gcloud their have some similar concept on tools. It will be cool if I can use both platform on full their capacity.
+
+## Day 10: Jan 11, 2020
+
+**TIL**: Learn about dataflow best pratice and look their handon and try to imagine to use it in real world. And concept how to handle late data.
+
+**Thoughts**: Second learn make more clear.

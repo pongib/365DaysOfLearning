@@ -145,3 +145,9 @@ It very good to find my mistake early and I will improve that mistake.
 **TIL**: Learn a little about BigQuery Overview. It use for analytic for petabyte scale. And columnar store with good performance for read and not write and BQ not update just added and append.
 
 **Thoughts**: My work is still on my head it make me loosing my focus when I need to concentrate to learning. So I just write everything in my head for work that pop up in my head and It make me clear my head and prepare for learning because I can't remember what detail in my head 100% so it good for write it down.
+
+## Day 15: Jan 16, 2020
+
+**TIL**: Learn how to import and export BigQuery just know it can read data form other such as Google Drive, Big Table just read not store in BQ. Some concept about views and cache. And review dataflow.
+
+**Thoughts**: Sleep early will help me to have more time when morning and before sleep is suitable for just review thing I learn today.

@@ -151,3 +151,9 @@ It very good to find my mistake early and I will improve that mistake.
 **TIL**: Learn how to import and export BigQuery just know it can read data form other such as Google Drive, Big Table just read not store in BQ. Some concept about views and cache. And review dataflow.
 
 **Thoughts**: Sleep early will help me to have more time when morning and before sleep is suitable for just review thing I learn today.
+
+## Day 16: Jan 17, 2020
+
+**TIL**: Learn Bigquery Best practice and watch hand on abount query stream data. Learn concept for example Partition, Cluster and way to import multi TB scale with arvo file format and learn about nested for read performace and some monitor and logging via Stackdriver.
+
+**Thoughts**: Try new learning method not pause just learn as smooth as possible and try to understand it. It good for not strugle when look for video but less confident that I know it 100%. I will test my understand via quiz tomorrow.

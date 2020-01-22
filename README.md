@@ -191,3 +191,9 @@ It very good to find my mistake early and I will improve that mistake.
 and just know about TPU.
 
 **Thoughts**: It a bit of concept and nothing must but very excited when visit https://cloud.google.com/ai-platform/ and scroll down to Next'19 and it use kubeflow for ML pineline, It sound very interesting I will plan to include in to my daily learn. I feel very lucky to live in this era.
+
+## Day 21: Jan 22, 2020
+
+**TIL**: Watch hand on lab for tranin model on AI platform on gcp how to train, deploy and predict it just know deployed model is called version. Predict can be both batch and rest api. And learn concept of pretrain model such as vision api and just heard about data prevention for protect sensitive data that also kind of pretrain model. And concept of AutoML that combined pretrain and manual train together. LA have cloud playgroud that I will try tomorrow for do an hand on lab of ML learned today, It very cool if I can try anything on this playground, I hope I not be ban like qwicklabs earlier.
+
+**Thoughts**: For today found LA have cloud playground that most exciting part for today. Tomorrow will try to figure it out how dynamic it is. And today I wake up early like I plan and learn on 4 pomodoro that quite suiatble but be sleepy :D.

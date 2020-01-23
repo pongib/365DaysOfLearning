@@ -197,3 +197,15 @@ and just know about TPU.
 **TIL**: Watch hand on lab for tranin model on AI platform on gcp how to train, deploy and predict it just know deployed model is called version. Predict can be both batch and rest api. And learn concept of pretrain model such as vision api and just heard about data prevention for protect sensitive data that also kind of pretrain model. And concept of AutoML that combined pretrain and manual train together. LA have cloud playgroud that I will try tomorrow for do an hand on lab of ML learned today, It very cool if I can try anything on this playground, I hope I not be ban like qwicklabs earlier.
 
 **Thoughts**: For today found LA have cloud playground that most exciting part for today. Tomorrow will try to figure it out how dynamic it is. And today I wake up early like I plan and learn on 4 pomodoro that quite suiatble but be sleepy :D.
+
+## Day 22: Jan 23, 2020
+
+**TIL**: Try hand on by myself and use this [instruction]() form LA to follow best part is I can use cloud sandbox for try any hand on I want but this have limit that I found is I install tensorflow via LA instrunction and it can't, maybe form restrict network itself so I can't use local train model. Sum-up topic that I learn today.
+
+* Train, Deploy and Predict via instruction.
+* Labeling Service on AI Platform first I thought it auto label form AI but it like mechanical turk.
+* Read about [predict](https://cloud.google.com/ml-engine/docs/v1/predict-request) via rest api and found it url to call and [how to struct rest api](https://cloud.google.com/ml-engine/docs/scikit/getting-predictions-xgboost#get_online_predictions).
+* Prediction and auto scale and when it don't have request it scale down to zero and no cost.
+
+**Thoughts**: It so funny that I can try thing out of it scope and very enjoy cloud sandbox and will try use rest predict by my own on weekend.
+

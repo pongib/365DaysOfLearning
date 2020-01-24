@@ -209,3 +209,9 @@ and just know about TPU.
 
 **Thoughts**: It so funny that I can try thing out of it scope and very enjoy cloud sandbox and will try use rest predict by my own on weekend.
 
+## Day 23: Jan 24, 2020
+
+**TIL**: Learn a little bit of datalab and how it share via cloud source repository. And use service accout user to use datalab.
+
+**Thoughts**: Today try to eat before learn and it don't work as I expect, it require a lot of power to start after breakfast because interrupted by play facebook and game. So I will learn around 2 pomodoro first and will eat breakfast after.
+

@@ -215,3 +215,9 @@ and just know about TPU.
 
 **Thoughts**: Today try to eat before learn and it don't work as I expect, it require a lot of power to start after breakfast because interrupted by play facebook and game. So I will learn around 2 pomodoro first and will eat breakfast after.
 
+## Day 24: Jan 25, 2020
+
+**TIL**: Watch datalab demo. At first I thought it will more clear example for share between but not quite, just push to cloud source repository. The useful thing is demo and example about it and contain such as query via Bigquery and plot to graph. It very useful if to figure something out quickly.
+
+**Thoughts**: Spend more time on relax stuff and it not quite good. This datalab tool is very cool if use between team but it start time is very slow.
+

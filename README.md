@@ -221,3 +221,9 @@ and just know about TPU.
 
 **Thoughts**: Spend more time on relax stuff and it not quite good. This datalab tool is very cool if use between team but it start time is very slow.
 
+## Day 25: Jan 26, 2020
+
+**TIL**: Learn a bit of Dataprep concept and iam role with dataprep user and dataprep service agent.
+
+**Thoughts**: I used to use this tool in qwiklabs quiz and it very amazing that I can do a via it UI. If I spend more time with hand on labs it will be help my understanding.
+

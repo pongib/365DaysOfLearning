@@ -227,3 +227,9 @@ and just know about TPU.
 
 **Thoughts**: I used to use this tool in qwiklabs quiz and it very amazing that I can do a via it UI. If I spend more time with hand on labs it will be help my understanding.
 
+## Day 26: Jan 27, 2020
+
+**TIL**: Watch dataprep hand on it very very useful and easy to use it can transform log file to structure data and save to BigQuery, very awesome. And learn a bit of Data Studio.
+
+**Thoughts**: It transform receipt to dataflow and it quite complex when use pure dataflow. If I use this Dataprep fluently or any data wrangler tools it will be great on data engineer role because it will spend more time to preprocess data.
+

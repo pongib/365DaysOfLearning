@@ -233,3 +233,9 @@ and just know about TPU.
 
 **Thoughts**: It transform receipt to dataflow and it quite complex when use pure dataflow. If I use this Dataprep fluently or any data wrangler tools it will be great on data engineer role because it will spend more time to preprocess data.
 
+## Day 27: Jan 28, 2020
+
+**TIL**: Data Studio concept and watch it hand-on and just know about cache and prefetch cache and then take quiz. Wrong answer on file type that support on dataprep that is DOC and I answer XLS(Excel).
+
+**Thoughts**: This lesson not a hard topic and I will do hand on later It almost done I very excite to take a certified exam.
+

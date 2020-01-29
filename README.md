@@ -239,3 +239,15 @@ and just know about TPU.
 
 **Thoughts**: This lesson not a hard topic and I will do hand on later It almost done I very excite to take a certified exam.
 
+## Day 28: Jan 29, 2020
+
+**TIL**: Cloud Composer both hand-on and concept, It kind of high level to control other service, Cloud Composer = Apache Airflow + K8S Cluster + GCS, and DAG workflow.
+Read about 2 way ssl and learn that if you are server you need to gen root CA to make certificate and learn about Certificate revoke list (CRL) to reject client when call to server. 
+
+**Thoughts**: I clear that why most tool on DE path is use Airflow it very helpful and I need to know other service that Airflow control as well. 2 way ssl is my doubt earlier but now I understand it more and I will do hand on tomorrow for better understand.
+
+**Ref**: 
+* [Useful gist and updated code](https://gist.github.com/pcan/e384fcad2a83e3ce20f9a4c33f4a13ae)
+* [have CRL but old code style](https://engineering.circle.com/https-authorized-certs-with-node-js-315e548354a2#.24nmlit7w)
+* [Visa documentation for use in real life](https://developer.visa.com/pages/working-with-visa-apis/two-way-ssl)
+* [Other example](http://www.developerdave.co.uk/2014/10/two-way-ssl-node-js/)

@@ -251,3 +251,9 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 * [have CRL but old code style](https://engineering.circle.com/https-authorized-certs-with-node-js-315e548354a2#.24nmlit7w)
 * [Visa documentation for use in real life](https://developer.visa.com/pages/working-with-visa-apis/two-way-ssl)
 * [Other example](http://www.developerdave.co.uk/2014/10/two-way-ssl-node-js/)
+
+## Day 29: Jan 30, 2020
+
+**TIL**: Finish course Data Engineer on Linux Academy but not take final exam yet. Learn a bit about other resource to learn before take real exam such as gcloud solution and codelabs. At work I learn that count on sql in specific way can be affect other transaction with have lock command.
+
+**Thoughts**: I will go to view other blog about pass exam and reverse it and see what I don't know and will plan to fill that gap.

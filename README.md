@@ -257,3 +257,9 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 **TIL**: Finish course Data Engineer on Linux Academy but not take final exam yet. Learn a bit about other resource to learn before take real exam such as gcloud solution and codelabs. At work I learn that count on sql in specific way can be affect other transaction with have lock command.
 
 **Thoughts**: I will go to view other blog about pass exam and reverse it and see what I don't know and will plan to fill that gap.
+
+## Day 30: Jan 31, 2020
+
+**TIL**: Find other suggest about certificate and just think it worth to get my hand dirty before take exam because it will useless cert for me if I can do anything but I will both try pratice exam and do dirty hand for get better understand. Learn at work that I nearly forgot how to write code in parallel way I will try pratice it again on tomorrow.
+
+**Thoughts**: It worth for me to admit my weakness and try to improve, even at first it very hurt.

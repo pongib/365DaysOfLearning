@@ -263,3 +263,9 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 **TIL**: Find other suggest about certificate and just think it worth to get my hand dirty before take exam because it will useless cert for me if I can do anything but I will both try pratice exam and do dirty hand for get better understand. Learn at work that I nearly forgot how to write code in parallel way I will try pratice it again on tomorrow.
 
 **Thoughts**: It worth for me to admit my weakness and try to improve, even at first it very hurt.
+
+## Day 31: Feb 1, 2020
+
+**TIL**: 
+
+**Thoughts**: 

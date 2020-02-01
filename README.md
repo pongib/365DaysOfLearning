@@ -266,6 +266,6 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 
 ## Day 31: Feb 1, 2020
 
-**TIL**: 
+**TIL**: Do first pratice exam on google official. I got 22/30 on this [link](https://docs.google.com/forms/d/e/1FAIpQLSfkWEzBCP0wQ09ZuFm7G2_4qtkYbfmk_0getojdnPdCYmq37Q/viewscore?viewscore=AE0zAgA_0OFhTQQZ0JJSpGQsb2ZLyt7XnWDl7_b7N_G80UWQ2N6Y9O85sQnypSgxvn1-8Gs) and lost 30$ on Toreba and got nothing but learn how to win ball crane.
 
-**Thoughts**: 
+**Thoughts**: Mostly I fail on thing I don't know and can't understand question well enough. Practice exam is hard that normal and make me read it very long time. I need to improve on speed will try to do more.

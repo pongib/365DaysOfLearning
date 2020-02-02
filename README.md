@@ -269,3 +269,17 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 **TIL**: Do first pratice exam on google official. I got 22/30 on this [link](https://docs.google.com/forms/d/e/1FAIpQLSfkWEzBCP0wQ09ZuFm7G2_4qtkYbfmk_0getojdnPdCYmq37Q/viewscore?viewscore=AE0zAgA_0OFhTQQZ0JJSpGQsb2ZLyt7XnWDl7_b7N_G80UWQ2N6Y9O85sQnypSgxvn1-8Gs) and lost 30$ on Toreba and got nothing but learn how to win ball crane.
 
 **Thoughts**: Mostly I fail on thing I don't know and can't understand question well enough. Practice exam is hard that normal and make me read it very long time. I need to improve on speed will try to do more.
+
+## Day 32: Feb 2, 2020
+
+**TIL**: Review my last exam and explain why I go wrong also go right. I learn
+
+* Analytic function on BQ. Its concept and function example LAG, LEAD, ROW_NUMBER, PARTITION.
+* MID for google graph api.
+* BQ default encoding is UTF-8.
+* Text to speech api and synthesis option with normal and waveform and SSML for customize synthesis.
+* NLP feature.
+* Sync and async for Speech to text.
+* BQ maximun 1 parition and 4 clustering per table.
+
+**Thoughts**: I learn a lot form my mistake and it take me a lot of focus and time for it. If I do another exam it will repeat this cycle, I hope next time I will have more speed on this.

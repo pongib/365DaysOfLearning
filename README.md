@@ -283,3 +283,9 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 * BQ maximun 1 parition and 4 clustering per table.
 
 **Thoughts**: I learn a lot form my mistake and it take me a lot of focus and time for it. If I do another exam it will repeat this cycle, I hope next time I will have more speed on this.
+
+## Day 33: Feb 3, 2020
+
+**TIL**: Search blog for people who pass DE exam and learn from them. In search and collect process I will analyzie it after I gathering it enough.
+
+**Thoughts**: It great for do it backward for pass an exam. Focus on topic that other people pass and it make me clear what I must do next.

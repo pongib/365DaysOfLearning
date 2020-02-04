@@ -289,3 +289,9 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 **TIL**: Search blog for people who pass DE exam and learn from them. In search and collect process I will analyzie it after I gathering it enough.
 
 **Thoughts**: It great for do it backward for pass an exam. Focus on topic that other people pass and it make me clear what I must do next.
+
+## Day 34: Feb 4, 2020
+
+**TIL**: Search blog again but found something very useful that is [awesome gcp de](https://github.com/sathishvj/awesome-gcp-certifications/blob/master/professional-data-engineer.md) it gathering what I want to read. I found some of topic that I not familar with and I will list it all and then try to understand it.
+
+**Thoughts**: I know it kind of tricky one, to pass the exam but real thing is waiting for me to use this skill for build something useful.

@@ -300,4 +300,10 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 
 **TIL**: Try to do lab start with data studio and try connnect with cloud sql instead of BQ and found something very weried it don't have cache option not like it said in labs. Even connect datasource as BQ but not found cache option but I found data liveness period with default is 12 hour.  
 
-**Thoughts**: What if I see this prefetch cache question in exam what should I do reflect what I saw or just answer what I learn from labs video. 
+**Thoughts**: What if I see this prefetch cache question in exam what should I do reflect what I saw or just answer what I learn from labs video.
+
+## Day 36: Feb 6, 2020
+
+**TIL**: Review BQ, Composer and Data Studio. Do a Composer lab I made mistake by thought that environment is just env in this context even I learn that composer step is create environment, create variable, create workflow. So environmemt in composer context is kind of instance or project name. I found it very slow for provisioning and update variable. And update variable in gcloud ui is not equal in airflow web ui, I thought it global but after try it is not. I try to use airflow to create BQ from DP result in my own case.
+
+**Thoughts**: It very fun to use it and need more time to practice in real use case and it out of exam scope but very useful in DE career. 

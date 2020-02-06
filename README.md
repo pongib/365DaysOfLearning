@@ -308,4 +308,7 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 
 **Thoughts**: It very fun to use it and need more time to practice in real use case and it out of exam scope but very useful in DE career. 
 
-**Ref** [Composer Example](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/b80895ed88ba86fce223df27a48bf481007ca708/composer/workflows)
+**Ref** 
+* [Composer Example](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/b80895ed88ba86fce223df27a48bf481007ca708/composer/workflows)
+* [Hands on](https://github.com/pongib/la-labs/tree/master/composer)
+

@@ -312,3 +312,19 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 * [Composer Example](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/b80895ed88ba86fce223df27a48bf481007ca708/composer/workflows)
 * [Hands on](https://github.com/pongib/la-labs/tree/master/composer)
 
+
+## Day 37: Feb 7, 2020
+
+**TIL**: Do Linux Academy final exam and get result at 82/100. Here what I made a mistake.
+* Cannot remember minimum advice for use BigTable that is 1 TB.
+* I not see keyword **specific**, Auto ML use for specific business scenario and Vision API for basic scenario.
+* Don't understand context of **segment** just focus on filter.
+* Just know Best practice for protect live customer data that is **separate project** for dev, staging and production and use CI for migrate data from one env to other env.
+* Use PCollection before write to any resouce such as pub/sub.
+* Trigger type is timestamp, Element count or combine both.
+* Denormalized data in BQ not reduce amount of data process and also less storage space used.
+* Storage Transfer Service is use for repeat or scheduled transfer.
+* Transfer Appliance is for ***physical** and **petabyte scale**.
+* Pub/sub is **global scope**
+
+**Thoughts**: I thought my score is not much and I will learn to improve it but I spend time to do exam faster than official exam. My strategy for this is need to review all of my question after finish not let me think that question without mark for reviewed is fine. Tomorrow I will review why my right answer is right.

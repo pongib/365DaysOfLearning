@@ -328,3 +328,14 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 * Pub/sub is **global scope**
 
 **Thoughts**: I thought my score is not much and I will learn to improve it but I spend time to do exam faster than official exam. My strategy for this is need to review all of my question after finish not let me think that question without mark for reviewed is fine. Tomorrow I will review why my right answer is right.
+
+
+## Day 38: Feb 8, 2020
+
+**TIL**: Do a little challenge on BigQuery via goo.gle/bqchallenge and learn IFNULL function and growth form year to year mean and how to calculate, it just divide by newYear/oldYear. And see my old exam that correct answer and remind me of IAM of dataflow, spanner and its concept such "NewSQL" and both consistency and scalability. And some best practice concept such as
+* Use a service account for automated jobs.
+* For security grant IAM on smallest scope resource as few as possible.
+* Critical workload may require High Availability, don't focus on save cost too much.
+and [chalk](https://www.npmjs.com/package/chalk) on npm is very cool.
+
+**Thoughts**: It good for do an challenge and me not fear of it and turn out it very easy but I also learn from it, also learn from correct answer is make me subtle better.

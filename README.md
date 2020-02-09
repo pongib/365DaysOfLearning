@@ -339,3 +339,10 @@ Read about 2 way ssl and learn that if you are server you need to gen root CA to
 and [chalk](https://www.npmjs.com/package/chalk) on npm is very cool.
 
 **Thoughts**: It good for do an challenge and me not fear of it and turn out it very easy but I also learn from it, also learn from correct answer is make me subtle better.
+
+## Day 39: Feb 9, 2020
+
+**TIL**: Learn so much from P'Parin Talk about life cycle of work and how he increase their salary up to 50x from start but money is not the point mindset for work is better. It very worth for me to listen his talk. And learn intro about DE in prepare google DE exam in coursera. I will learn their content and do an pratice exam on that.
+
+**Thoughts**: I will rethink about what I learn today and make it useful for my career path.
+

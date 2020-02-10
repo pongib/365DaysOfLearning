@@ -346,3 +346,8 @@ and [chalk](https://www.npmjs.com/package/chalk) on npm is very cool.
 
 **Thoughts**: I will rethink about what I learn today and make it useful for my career path.
 
+## Day 40: Feb 10, 2020
+
+**TIL**: Learn a little bayes and prediction form netflix documentary. And watch case study that I hate to do it at first but for now when I understand all concept and then look it back it very help me understand big picture and I can think follow with teacher.
+
+**Thoughts**: I think when I don't understand something it doesn't mean I fool but it mean I need know prior knowledge and it concept next time when I face situation like this I will go to foundation concept first. I think I spend less time for learning I need to spend it more.

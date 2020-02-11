@@ -351,3 +351,11 @@ and [chalk](https://www.npmjs.com/package/chalk) on npm is very cool.
 **TIL**: Learn a little bayes and prediction form netflix documentary. And watch case study that I hate to do it at first but for now when I understand all concept and then look it back it very help me understand big picture and I can think follow with teacher.
 
 **Thoughts**: I think when I don't understand something it doesn't mean I fool but it mean I need know prior knowledge and it concept next time when I face situation like this I will go to foundation concept first. I think I spend less time for learning I need to spend it more.
+
+## Day 41: Feb 11, 2020
+
+**TIL**: Learn case study 2 and it not much. Try to figure it out what Data Fusion will use for, it use for build data pipeline with UI and can portable but I don't understand it so sure I will watch Google Next 2019 for further detail.
+I just know the Touchstone concept that I very curious when you learn all basic concept then go to next step with glue all basic knowledge together, and it call Touchstone.
+
+**Thoughts**: I think service like Data fusion it make me think google cloud is just managed open source project. Because it open source project that is core value and then surround with google service such as IAM and stack driver.
+

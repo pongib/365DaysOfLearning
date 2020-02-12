@@ -359,3 +359,8 @@ I just know the Touchstone concept that I very curious when you learn all basic 
 
 **Thoughts**: I think service like Data fusion it make me think google cloud is just managed open source project. Because it open source project that is core value and then surround with google service such as IAM and stack driver.
 
+## Day 42: Feb 12, 2020
+
+**TIL**: Learn a bit about data representation and some of data fusion.
+
+**Thoughts**: I think I need to wake up early than this.

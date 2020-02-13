@@ -364,3 +364,20 @@ I just know the Touchstone concept that I very curious when you learn all basic 
 **TIL**: Learn a bit about data representation and some of data fusion.
 
 **Thoughts**: I think I need to wake up early than this.
+
+## Day 43: Feb 13, 2020
+
+**TIL**: Review concept on widely topic
+* Spark with transform with lazy evaluate and action.
+* Eager evaluate on Tensorflow
+* Use cluster propertie to config Hadoop on Dataproc
+* Dataflow template for east to use with other user who non-coder.
+* BigQuery limit stream with 100k rows/table/sec
+* Bigtable with 100,000QPS @ 6ms with 10node.
+* Single and Multi route for Bigtable for failover scenario.
+* Suggest Bigtable Cpu for 70% with single route and 35% with multiple route for handle traffic from unavailable cluter in other region.
+* Spanner and Bigtable increase node for better performance.
+* In same performance for 100,000 QPS in Bigtable use 10 node but Spanner use 150 node and very expensive.
+* It resonable to store data in Bigquery because it inexpensive.
+
+**Thoughts**: I lose focus in early morning but I learn all the way to office and learn again when back to home. I want to pass certificate quickly becase I want to do stuff in real use case and I know thing that I learn about in Bigtable it not on exam but I want to know it when I face real life.

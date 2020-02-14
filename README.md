@@ -381,3 +381,11 @@ I just know the Touchstone concept that I very curious when you learn all basic 
 * It resonable to store data in Bigquery because it inexpensive.
 
 **Thoughts**: I lose focus in early morning but I learn all the way to office and learn again when back to home. I want to pass certificate quickly becase I want to do stuff in real use case and I know thing that I learn about in Bigtable it not on exam but I want to know it when I face real life.
+
+## Day 44: Feb 14, 2020
+
+**TIL**: Try answer question on cousera but struck with BQ question, 
+* just known that BQ dataset cannot direct move from one location to another location after created, it need to export to GCS with same location and copy from GCS old location to new one and then create BQ on that new location and import it.
+* It can copy dataset to other project but in same location.
+
+**Thoughts**: Just think that when I prepare for exam I lack a lot of progress becase I need to review the same thing over and over that make me feel depress sometime but for now I understand it. I see about new DE [path](https://google.qwiklabs.com/courses/1156) on GCP and [new course](https://www.coursera.org/learn/smart-analytics-machine-learning-ai-gcp) on coursera. WTF.

@@ -389,3 +389,9 @@ I just know the Touchstone concept that I very curious when you learn all basic 
 * It can copy dataset to other project but in same location.
 
 **Thoughts**: Just think that when I prepare for exam I lack a lot of progress becase I need to review the same thing over and over that make me feel depress sometime but for now I understand it. I see about new DE [path](https://google.qwiklabs.com/courses/1156) on GCP and [new course](https://www.coursera.org/learn/smart-analytics-machine-learning-ai-gcp) on coursera. WTF.
+
+## Day 45: Feb 14, 2020
+
+**TIL**: Learn various topic on DE course I know the service better than before and answer wrong about view in BQ so I need to learn from [document](https://cloud.google.com/bigquery/docs/share-access-views) and know about view in BQ better with Authorize view and IAM with bq.user and bq.dataviewer and share dataset.
+
+**Thoughts**: I feel great when spend my time with learning not just lay on my bed.

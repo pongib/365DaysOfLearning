@@ -390,8 +390,19 @@ I just know the Touchstone concept that I very curious when you learn all basic 
 
 **Thoughts**: Just think that when I prepare for exam I lack a lot of progress becase I need to review the same thing over and over that make me feel depress sometime but for now I understand it. I see about new DE [path](https://google.qwiklabs.com/courses/1156) on GCP and [new course](https://www.coursera.org/learn/smart-analytics-machine-learning-ai-gcp) on coursera. WTF.
 
-## Day 45: Feb 14, 2020
+## Day 45: Feb 15, 2020
 
 **TIL**: Learn various topic on DE course I know the service better than before and answer wrong about view in BQ so I need to learn from [document](https://cloud.google.com/bigquery/docs/share-access-views) and know about view in BQ better with Authorize view and IAM with bq.user and bq.dataviewer and share dataset.
 
 **Thoughts**: I feel great when spend my time with learning not just lay on my bed.
+
+## Day 46: Feb 16, 2020
+
+**TIL**: Do a practice exam and got 76% that didn't pass but second attemp is 96% here what I do wrong.
+* keyword one way and one time that I don't understand exactly.
+* Upgrade form develop to production in Bigtable it can upgrade directly.
+* Miss undertstand IOT core.
+* Not read some keyword carefully such minimize query cost. I understand that minimize all cost.
+And learn about interconnect such partner and dedicate.
+
+**Thoughts**: Sometime it make me unconfident that I didn't pass it at first but I think it great that I fall early and learn a lot from it.

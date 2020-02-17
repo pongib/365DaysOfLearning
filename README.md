@@ -406,3 +406,19 @@ I just know the Touchstone concept that I very curious when you learn all basic 
 And learn about interconnect such partner and dedicate.
 
 **Thoughts**: Sometime it make me unconfident that I didn't pass it at first but I think it great that I fall early and learn a lot from it.
+
+## Day 47: Feb 17, 2020
+
+**TIL**: Learn from blog that other people who pass wrote. A lot of topic such as
+* dropout is on of reguralize technique for prevent overfit that drop node in hidden layer.
+* systhesis feature is cross feature.
+* L1, L2 will better if use with big data set but with small cross validation is fine.
+* embedding is technique for change discrete object to vector or real number for easy calculate for computer such as word to vector.
+* A lot of quota question.
+* concurrent query for Bigquery is 100 concurrent.
+* update table is 1000 update/table/day.
+* DML is data manipulate language such as UPDATE, INSERT, DELETE.
+* DML support only transaction not multiple transaction.
+* Can combine only UPDATE + INSERT, DELETE + INSERT, INSERT + INSERT other will be fail one and success one.
+
+**Thoughts**: A lot of topic that cover and need to read a lot from documentation.

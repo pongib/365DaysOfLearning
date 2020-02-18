@@ -422,3 +422,17 @@ And learn about interconnect such partner and dedicate.
 * Can combine only UPDATE + INSERT, DELETE + INSERT, INSERT + INSERT other will be fail one and success one.
 
 **Thoughts**: A lot of topic that cover and need to read a lot from documentation.
+
+## Day 48: Feb 18, 2020
+
+**TIL**: A lot of work at morinig so I just learn only [slot](https://cloud.google.com/bigquery/docs/slots) in BigQuery
+* Slot is computation unit for do an query.
+* Defind by complexity and size of query.
+* If slot exceed it just queue. No need money to pay.
+* Default slot is 2000.
+* Query is transform to stage and put in DAG.
+* Stage require slot to execute and evaluate slot by stage optimal parallelization, it pretty cool name.
+
+**Thoughts**: Feeling want to sleep but need to learn something as I commited to myself.
+
+

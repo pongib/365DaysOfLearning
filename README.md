@@ -435,4 +435,26 @@ And learn about interconnect such partner and dedicate.
 
 **Thoughts**: Feeling want to sleep but need to learn something as I commited to myself.
 
+## Day 49: Feb 18, 2020
+
+**TIL**: A lot of work at morinig so I just learn only [slot](https://cloud.google.com/bigquery/docs/slots) in BigQuery
+* Slot is computation unit for do an query.
+* Defind by complexity and size of query.
+* If slot exceed it just queue. No need money to pay.
+* Default slot is 2000.
+* Query is transform to stage and put in DAG.
+* Stage require slot to execute and evaluate slot by stage optimal parallelization, it pretty cool name.
+
+**Thoughts**: Feeling want to sleep but need to learn something as I commited to myself.
+
+## Day 50: Feb 19, 2020
+
+**TIL**: Retake official exam this time I got 28/30 one is missing another is forgot to answer.
+* What I miss is dataproc best practice is job specific mean that one job one duty for exam Hadoop cluster do two duty is analytic and processing when lift and ship to dataproc, analytic on dataproc is one job and second is processing job.
+* More accuracy and speed time but I didn't remember anything so much just new analysis.
+* Thing to learn more is secondary index on Spanner and use case of slidding window
+
+**Thoughts**: Feel more confident but need to pratice more.
+
+
 

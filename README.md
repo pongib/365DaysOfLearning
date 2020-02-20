@@ -457,4 +457,15 @@ And learn about interconnect such partner and dedicate.
 **Thoughts**: Feel more confident but need to pratice more.
 
 
+## Day 51: Feb 20, 2020
+
+**TIL**: Watch document about Spanner, Dataflow.
+* Secondary index is just indexing on other column rather than primary key.
+* It good when want to query by specific that data column
+* Best way to create it is when create table.
+* It need time to effect secondary index if create after created table.
+* Learn about dataflow window.
+
+**Thoughts**: Not much learn because of a lot of work.
+
 

@@ -469,3 +469,15 @@ And learn about interconnect such partner and dedicate.
 **Thoughts**: Not much learn because of a lot of work.
 
 
+## Day 52: Feb 21, 2020
+
+**TIL**: A little knowledge of mesurement of confusion matrix
+* Accuracy use for symetric data set.
+* Precision and Recall for asymetric data set.
+* Learn about compliant such as
+* GDPR for legulate how to use, collect of customer data.
+* HIPAA for health data.
+* FedRamp for security assesment and authorize of cloud service.
+* COPPA for protect data and online operate for child age under 13.
+
+**Thoughts**: Another day for limit time for learn but try hard for learn something useful for certified exam.

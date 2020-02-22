@@ -481,3 +481,9 @@ And learn about interconnect such partner and dedicate.
 * COPPA for protect data and online operate for child age under 13.
 
 **Thoughts**: Another day for limit time for learn but try hard for learn something useful for certified exam.
+
+## Day 53: Feb 22, 2020
+
+**TIL**: Register for exam on 27/02/2020 hope me pass. And do practice around 70 question and read document about partition in Bigquery.
+
+**Thoughts**: It quite heavy load on my brain when take an pratce exam but it still fuction.

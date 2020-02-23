@@ -487,3 +487,9 @@ And learn about interconnect such partner and dedicate.
 **TIL**: Register for exam on 27/02/2020 hope me pass. And do practice around 70 question and read document about partition in Bigquery.
 
 **Thoughts**: It quite heavy load on my brain when take an pratce exam but it still fuction.
+
+## Day 54: Feb 23, 2020
+
+**TIL**: I try an practice exam and learn from my mistake yesterday but today I fail my exam (76%) with a lot of mistake that I just know. I will reanalysis tomorrow. For now I know a lot of thing I don't know before.
+
+**Thoughts**: I feel bad this time and it stress sometime but still optimistic I will learn a lot from this failure.

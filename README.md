@@ -493,3 +493,15 @@ And learn about interconnect such partner and dedicate.
 **TIL**: I try an practice exam and learn from my mistake yesterday but today I fail my exam (76%) with a lot of mistake that I just know. I will reanalysis tomorrow. For now I know a lot of thing I don't know before.
 
 **Thoughts**: I feel bad this time and it stress sometime but still optimistic I will learn a lot from this failure.
+
+## Day 55: Feb 24, 2020
+
+**TIL**: Got 90% on practice 3 in Whizlabs and learn some concept.
+* Read key visualizer
+* Dataproc scale and autoscale
+* Datastore export via api or gcloud and recommend when schedule export via script deploy to APP Engine and use cron.
+* TPU the best.
+* If don't manual export Bigquery, just use Dataflow for export Bigquery.
+* Stream limit is 100,000 row/table/project/sec. and byte size is 100 MB/sec of size and 10000 row per request and max row size 1 MB.
+
+**Thoughts**: Feel good when got better score and need to review detail in LA.

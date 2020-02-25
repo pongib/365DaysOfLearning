@@ -505,3 +505,14 @@ And learn about interconnect such partner and dedicate.
 * Stream limit is 100,000 row/table/project/sec. and byte size is 100 MB/sec of size and 10000 row per request and max row size 1 MB.
 
 **Thoughts**: Feel good when got better score and need to review detail in LA.
+
+## Day 56: Feb 25, 2020
+
+**TIL**: Got 98% on practice test in Linuxacademy.
+* Read key visualizer again and understand almost well.
+* Wrong answer on dataproc with HDFS storage and preemtible.
+* Join data hero talk and learn a lot from it.
+Data hero talk make me more clear some path of Data career and interest path is DS.
+I know good question to ask myself when want to modeling something and I think it pretty good way to approach.
+
+**Thoughts**: I think it because of instructor make it so funny and practicle every role is important.

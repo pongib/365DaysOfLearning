@@ -524,3 +524,13 @@ Also, learn UDF in Bigquery and Bigtable use case for single and multi cluster r
 I learn above topic because I failed pratice exam with 76% I need 1 more correct answer but I didn't.
 
 **Thoughts**: I think that tomorrow I will pass exam or not because my last exam it go didn't well.
+
+## Day 58: Feb 27, 2020
+
+**TIL**: I write this with intention for delay gap with 2 days because I will mark it as milestone for my career.
+I did pass real Google data enginner exam. I learn life lesson 3 thing.
+* If I work hard in right way, I must success.
+* Time in some period is very important. I almost lose all my dedicated if I go to take exam late.
+* Accidents always happen be prepare!.
+
+**Thoughts**: I feel very good that I get what I want. For now I need to look forward to next subject to learn and that is PYTHON!.

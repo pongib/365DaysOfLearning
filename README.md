@@ -516,3 +516,11 @@ Data hero talk make me more clear some path of Data career and interest path is 
 I know good question to ask myself when want to modeling something and I think it pretty good way to approach.
 
 **Thoughts**: I think it because of instructor make it so funny and practicle every role is important.
+
+## Day 57: Feb 26, 2020
+
+**TIL**: The day before take exam I review all what I learn.
+Also, learn UDF in Bigquery and Bigtable use case for single and multi cluster route.
+I learn above topic because I failed pratice exam with 76% I need 1 more correct answer but I didn't.
+
+**Thoughts**: I think that tomorrow I will pass exam or not because my last exam it go didn't well.

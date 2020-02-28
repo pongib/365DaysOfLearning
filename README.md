@@ -534,3 +534,13 @@ I did pass real Google data enginner exam. I learn life lesson 3 thing.
 * Accidents always happen be prepare!.
 
 **Thoughts**: I feel very good that I get what I want. For now I need to look forward to next subject to learn and that is PYTHON!.
+
+## Day 59: Feb 28, 2020
+
+**TIL**: Read document and try hands on  to cloud endpoints.
+* How to deploy both config and backend service.
+* How to use default domain and custom domain.
+* View log.
+* Its overall concept.
+
+**Thoughts**: It part of my work but I never do it before. I think it very fine grain and very code heavy.

@@ -544,3 +544,14 @@ I did pass real Google data enginner exam. I learn life lesson 3 thing.
 * Its overall concept.
 
 **Thoughts**: It part of my work but I never do it before. I think it very fine grain and very code heavy.
+
+## Day 60: Feb 29, 2020
+
+**TIL**: Plan for learn python Here is my path.
+* Start with Certified Entry-Level Python Programmer Certification in Linux Academy.
+* Then take Introduction to Python Development and Programming Use Cases with Python both can be skip basic concept.
+* Go to Datacamp and take python-programmer on career-tracks.
+I will learn about Python develop and fundamental on Linux Academy and data relate on Datacamp such as pandas, numpy, mathplot.
+
+**Thoughts**: This will take me a couple week to do and it will be fun with this language. 
+My goal is to use this language as primary language and fluent it as much as I can.

@@ -555,3 +555,11 @@ I will learn about Python develop and fundamental on Linux Academy and data rela
 
 **Thoughts**: This will take me a couple week to do and it will be fun with this language. 
 My goal is to use this language as primary language and fluent it as much as I can.
+
+## Day 61: Mar 1, 2020
+
+**TIL**: I try to set my credential and linkedin page.
+Write blog about my data engineer exam but not finish yet.
+
+**Thoughts**: It not easy to write blog to other people for reading and easy to understand.
+Need to curated list of topic carefully. Just doubt if I write blog very time, will I good at writing?

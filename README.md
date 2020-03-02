@@ -563,3 +563,14 @@ Write blog about my data engineer exam but not finish yet.
 
 **Thoughts**: It not easy to write blog to other people for reading and easy to understand.
 Need to curated list of topic carefully. Just doubt if I write blog very time, will I good at writing?
+
+## Day 62: Mar 2, 2020
+
+**TIL**: Write blog again and still not finish and learn that Medium not have anchor feature
+I need to install extension. And learn Python but It not relate to any Python, mostly is editor.
+* Remote Development for work with cloud sandbox.
+* Sync setting for sync my setting to gist.
+
+**Thoughts**: I used most of my time to write my blog it make a lot of afford but very fun.
+I think it will finish tomorrow and hope it will useful for other people.
+

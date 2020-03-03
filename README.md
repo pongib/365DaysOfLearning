@@ -574,3 +574,13 @@ I need to install extension. And learn Python but It not relate to any Python, m
 **Thoughts**: I used most of my time to write my blog it make a lot of afford but very fun.
 I think it will finish tomorrow and hope it will useful for other people.
 
+## Day 63: Mar 3, 2020
+
+**TIL**: Complete my data engineer exam blog [here](https://medium.com/@pongtsu/%E0%B8%A3%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%AA%E0%B8%AD%E0%B8%9A-cert-google-data-engineer-%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B8%84%E0%B8%99%E0%B8%97%E0%B8%B3%E0%B8%87%E0%B8%B2%E0%B8%99-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7%E0%B8%AD%E0%B8%A2%E0%B8%B2%E0%B8%81%E0%B8%A1%E0%B8%B5%E0%B8%AA%E0%B8%81%E0%B8%B4%E0%B8%A5%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99-data-788271fbfd50)
+It require a lot of power to write but feel good when it done.
+* Learn kubeflow 1.0 just read their blog and watch example but not try yet, will try on weekend.
+* Know fact about diaper and beer legend, It fact it not look good like tale.
+
+**Thoughts**: Story about diaper and beer is make me shcok that in the beginning everything is not look good like tale.
+About blog is good to share with other but it make me a lot of effort, I will write again if I think it useful for other people. 
+

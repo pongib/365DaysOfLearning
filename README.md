@@ -584,3 +584,9 @@ It require a lot of power to write but feel good when it done.
 **Thoughts**: Story about diaper and beer is make me shcok that in the beginning everything is not look good like tale.
 About blog is good to share with other but it make me a lot of effort, I will write again if I think it useful for other people. 
 
+## Day 64: Mar 4, 2020
+
+**TIL**: I use LA server for write python code via VSCODE and it very terible, very slow.
+I will use docker in my local machine instead.
+**Thoughts**: Noting much today I will find way to more effective with this learning.
+

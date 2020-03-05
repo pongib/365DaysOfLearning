@@ -588,5 +588,25 @@ About blog is good to share with other but it make me a lot of effort, I will wr
 
 **TIL**: I use LA server for write python code via VSCODE and it very terible, very slow.
 I will use docker in my local machine instead.
+
 **Thoughts**: Noting much today I will find way to more effective with this learning.
 
+## Day 65: Mar 5, 2020
+
+**TIL**: Found that my macbook have python 3 installed so it very easy to run.
+Mostly I use REPL to run. Here thing I learn about python today.
+* Complier and Interpreter.
+* Lexical like define token, Syntax is parse tree, Semantic is rule apply on tree.
+* Python is Interpreter language that complied to byte-code before execute.
+* Can change python file to executeable file with #!/usr/local/bin/python3 hello.py and chmod u+x hello.py
+* Python don't have block comment in have only line comment with #.
+* It object orient and have method like "Hello".lower() or "Hello".find("e")
+* Both "" and '' is parse to ''.
+* Very fun with "HA" * 4 will print "HAHAHAHA".
+* Boolean is True and False with Capital letter at first.
+* // is call floor divide, example 5 // 2 == 2.
+* binary, octate, hex is represent with 0b1111, 0o17, 0xf all equal 15.
+* can convert decimal to other with f'{15:b}' or bin(15) or f'{15:o}' or f'{15:x}'.
+
+**Thoughts**: Sometime it very bore because it basic but some part that I don't know is very fun.
+I like when I watch and then try to type follow lesson it help me to more understand and not bore.

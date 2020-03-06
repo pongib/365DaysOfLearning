@@ -610,3 +610,10 @@ Mostly I use REPL to run. Here thing I learn about python today.
 
 **Thoughts**: Sometime it very bore because it basic but some part that I don't know is very fun.
 I like when I watch and then try to type follow lesson it help me to more understand and not bore.
+
+## Day 66: Mar 6, 2020
+
+**TIL**: Learn a bit about &, |, ^ (xor) in python. I already forgot how to do XOR.
+Watch live about bacis NLP with word2vec, RNN, LSTM, Attention and a little on transformation with 12 attention.
+
+**Thoughts**: Found it quite interest not in NLP subject but in their architect design of model.

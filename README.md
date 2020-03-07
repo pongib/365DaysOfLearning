@@ -617,3 +617,22 @@ I like when I watch and then try to type follow lesson it help me to more unders
 Watch live about bacis NLP with word2vec, RNN, LSTM, Attention and a little on transformation with 12 attention.
 
 **Thoughts**: Found it quite interest not in NLP subject but in their architect design of model.
+
+## Day 67: Mar 7, 2020
+
+**TIL**: Python basic.
+* Learn about operator with order matter in python.
+* Typecast such bool, int, str, float.
+* Compare such "is" is from same memory address.
+* Return order form "and" and "or" when it evaluated to True or False. For exam
+* '123' and 0 and 1 will return 0 that evaluated to False.
+* '123' and 1 and 1.23 will return 1.23 that the last and evaluated to True.
+* int(1.23), int(1.89) will return 1.
+* int('12.23') will return Error, WTF!
+* Can't compare diffent type, for exam 'a' <= 123.
+* ord('a') will return order of sting a.
+* id('a') will return memory address of string a that is immutable.
+* [] is not immutable, so [] is [] will return False.
+
+**Thoughts**: I don't want to skip basic stuff even I know about but it will have subtle thing
+that I don't know before.

@@ -636,3 +636,11 @@ Watch live about bacis NLP with word2vec, RNN, LSTM, Attention and a little on t
 
 **Thoughts**: I don't want to skip basic stuff even I know about but it will have subtle thing
 that I don't know before.
+
+
+## Day 68: Mar 8, 2020
+
+**TIL**: Just learn a bit with print with end and sep option and input function.
+* Use chalk and ora for spinner but didn't work well.
+
+**Thoughts**: Just spend to much with those 2 lib for make it look pretty but not work like what I thought.

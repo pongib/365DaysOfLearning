@@ -644,3 +644,15 @@ that I don't know before.
 * Use chalk and ora for spinner but didn't work well.
 
 **Thoughts**: Just spend to much with those 2 lib for make it look pretty but not work like what I thought.
+
+
+## Day 69 - 70: Mar 9 - 10, 2020
+
+**TIL**: Forgot to commit in git but still learn I learn how to use slice in python
+with string and list and how to use append and insert. String is immutable, it have
+same address with same value if want new string value it must be new address but
+list is mutable, it have same address with different value. Slice it have shorthand with
+[start:end(not include):step] for exam [::] is take all 
+* [2:10:3] is start with index 2 end with index 10 but not included and step with 2 char.
+
+**Thoughts**: I never understand slice in python untill now it make me very happy and I'm not sure when I will forget it LOL.

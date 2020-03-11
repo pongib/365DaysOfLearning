@@ -656,3 +656,17 @@ list is mutable, it have same address with different value. Slice it have shorth
 * [2:10:3] is start with index 2 end with index 10 but not included and step with 2 char.
 
 **Thoughts**: I never understand slice in python untill now it make me very happy and I'm not sure when I will forget it LOL.
+
+## Day 71: Mar 11, 2020
+
+**TIL**: Learn what is tuple and list in python.
+* Tuple is immutable but List is mutable.
+* Can have list in tuple and vice versa.
+* List in List is called nested list and it is metric, len(my_metric) is rows and len(my_metric[0]) is column.
+* List can sorted and reversed on item that same type.
+* Reversed need to cast to list again.
+* Also have index method.
+* Can check item in List by use "'a' in my_list" or "'a' not in my_list".
+* Tuple syntax is (1, 2, 3) or (4,).
+
+**Thoughts**: Finally I understand tuple and it limitation.

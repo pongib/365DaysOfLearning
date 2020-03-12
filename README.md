@@ -670,3 +670,13 @@ list is mutable, it have same address with different value. Slice it have shorth
 * Tuple syntax is (1, 2, 3) or (4,).
 
 **Thoughts**: Finally I understand tuple and it limitation.
+
+## Day 72: Mar 12, 2020
+
+**TIL**: Learn dictionary in python and Learn how to use auth0 with openapi.
+* Learn method dict.keys() dict.values() dict.items() that return tuple in list of key value pair.
+* Build dict with method dict(key=value, key2=value) and dict([('key', value)]).
+* Key is immutable can be both string and tuple.
+* Dict itself is mutable.
+
+**Thoughts**: Spend so much time to understand auth0 and their audience in cliam.

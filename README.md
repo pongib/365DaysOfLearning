@@ -680,3 +680,16 @@ list is mutable, it have same address with different value. Slice it have shorth
 * Dict itself is mutable.
 
 **Thoughts**: Spend so much time to understand auth0 and their audience in cliam.
+
+## Day 73: Mar 12, 2020
+
+**TIL**: Learn utf 8 in python and how to represent it and method to use with string.
+* '\u2122' or '™' can use ord('™') or ord('\u2122') to watch code number.
+* Can use chr(8482) to see what that unicode is.
+* Learn split() and ','.join() to concat string in list or tuple.
+* More method like isnumeric() or iswhatever and lower(), upper(), title(), capitalize().
+* template string use with {} or use with {1}, have index but cannot combined.
+* Sorted(list) when compare string it compare first char. Example ['This', 'is', 'a', 'book'] will be ['This', 'a', 'book', 'is'] becase 'T' < 'a' < 'b' < 'i'.
+* Learn how to commit and push via gitlens in VSCODE but found out it not have commit and push LOL.
+
+**Thoughts**: Some method not useful such as isnumeric, isdigit, isdecimal it return the same and can't use with '1.0' with period.

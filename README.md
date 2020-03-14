@@ -681,7 +681,7 @@ list is mutable, it have same address with different value. Slice it have shorth
 
 **Thoughts**: Spend so much time to understand auth0 and their audience in cliam.
 
-## Day 73: Mar 12, 2020
+## Day 73: Mar 13, 2020
 
 **TIL**: Learn utf 8 in python and how to represent it and method to use with string.
 * '\u2122' or '™' can use ord('™') or ord('\u2122') to watch code number.
@@ -693,3 +693,9 @@ list is mutable, it have same address with different value. Slice it have shorth
 * Learn how to commit and push via gitlens in VSCODE but found out it not have commit and push LOL.
 
 **Thoughts**: Some method not useful such as isnumeric, isdigit, isdecimal it return the same and can't use with '1.0' with period.
+
+## Day 74: Mar 14, 2020
+
+**TIL**: A little with if else statement. In python it else if with elif and after condition it must have : and indent need to equally.
+
+**Thoughts**: Today not much learn because of Netflix LOL!

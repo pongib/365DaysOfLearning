@@ -699,3 +699,18 @@ list is mutable, it have same address with different value. Slice it have shorth
 **TIL**: A little with if else statement. In python it else if with elif and after condition it must have : and indent need to equally.
 
 **Thoughts**: Today not much learn because of Netflix LOL!
+
+## Day 75: Mar 15, 2020
+
+**TIL**: Learn how to use loop in python.
+* While loop.
+* For loop.
+* Use range function to use certain range in for loop.
+* Range use less memory than list because it use only needed and not store entire list.
+* Can use if in loop but need to care about indent.
+* Use break and continue for control loop.
+* Can use else: when for or while loop. Useful in case for loop combine with break when need to search something.
+* Pass is use for complete syntax in if else.
+* Comprehension list is the best.
+
+**Thoughts**: Like comprehension list very much.

@@ -714,3 +714,14 @@ list is mutable, it have same address with different value. Slice it have shorth
 * Comprehension list is the best.
 
 **Thoughts**: Like comprehension list very much.
+
+## Day 76: Mar 16, 2020
+
+**TIL**: Learn how to defined function and a bit about parameter and argument.
+* Parameter is varible we define on function.
+* Argument is value that assign when call function.
+* Can have positional arguemnt, key value argument and mix.
+* If use with key value argument, the rest must be key value argument not positional argument.
+* Side effect is do something but not return value such as print in function but not return anything.
+
+**Thoughts**: Not much today but still progess. And finally I know about different parameter and argument.

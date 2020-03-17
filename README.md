@@ -725,3 +725,9 @@ list is mutable, it have same address with different value. Slice it have shorth
 * Side effect is do something but not return value such as print in function but not return anything.
 
 **Thoughts**: Not much today but still progess. And finally I know about different parameter and argument.
+
+## Day 77: Mar 17, 2020
+
+**TIL**: Learn how to import sequelize model via folder.
+
+**Thoughts**: It a bit progress but take more time. It struck in my mind for longtime for understand it.

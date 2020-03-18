@@ -731,3 +731,12 @@ list is mutable, it have same address with different value. Slice it have shorth
 **TIL**: Learn how to import sequelize model via folder.
 
 **Thoughts**: It a bit progress but take more time. It struck in my mind for longtime for understand it.
+
+## Day 78: Mar 18, 2020
+
+**TIL**: Learn how to use default parameter.
+* If declare default parameter must follow with default parameter not alone paramter.
+* Use recursive function.
+* Create palindrome function.
+
+**Thoughts**: It make me quite complex for me for create a palindrome but it very fun way to imagine and use my knowledge.

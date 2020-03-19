@@ -740,3 +740,11 @@ list is mutable, it have same address with different value. Slice it have shorth
 * Create palindrome function.
 
 **Thoughts**: It make me quite complex for me for create a palindrome but it very fun way to imagine and use my knowledge.
+
+## Day 79: Mar 19, 2020
+
+**TIL**: Learn generator in python.
+* It kind of pause and resume concept and not require to run entire list.
+* Useful when use with list and need high memory that normal loop can't do.
+
+**Thoughts**: I compare myself with solution and found that I think way to much and didn't look at big picture.

@@ -748,3 +748,9 @@ list is mutable, it have same address with different value. Slice it have shorth
 * Useful when use with list and need high memory that normal loop can't do.
 
 **Thoughts**: I compare myself with solution and found that I think way to much and didn't look at big picture.
+
+## Day 80: Mar 20, 2020
+
+**TIL**: Do generator lab and know about scope, global and shadow in python.
+
+**Thoughts**: This is final episode of this course I will find way to know more about python.

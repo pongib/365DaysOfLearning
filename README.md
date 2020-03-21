@@ -754,3 +754,13 @@ list is mutable, it have same address with different value. Slice it have shorth
 **TIL**: Do generator lab and know about scope, global and shadow in python.
 
 **Thoughts**: This is final episode of this course I will find way to know more about python.
+
+## Day 81: Mar 22, 2020
+
+**TIL**: Test pratice exam and pass with 82% LOL.
+* Learn that list is reference on same address if I assign my_list2 = my_list
+it will reference on same address if I remove value in my_list2 it will effect on my_list.
+* Divide always return float.
+* Mistake about not print at last or ask for value of variable that operate but didn't assign.
+
+**Thoughts**: I found new course that associate level I will learn this course before go to Datacamp.

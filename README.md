@@ -755,7 +755,7 @@ list is mutable, it have same address with different value. Slice it have shorth
 
 **Thoughts**: This is final episode of this course I will find way to know more about python.
 
-## Day 81: Mar 22, 2020
+## Day 81: Mar 21, 2020
 
 **TIL**: Test pratice exam and pass with 82% LOL.
 * Learn that list is reference on same address if I assign my_list2 = my_list
@@ -764,3 +764,13 @@ it will reference on same address if I remove value in my_list2 it will effect o
 * Mistake about not print at last or ask for value of variable that operate but didn't assign.
 
 **Thoughts**: I found new course that associate level I will learn this course before go to Datacamp.
+
+## Day 82: Mar 22, 2020
+
+**TIL**: Learn lambda on associate course.
+* Lambda it like anonymous function that take argument and execute one expression.
+* Map, Filter, Reduce is higher order fuction.
+* HOC is function that take function as argument and return function.
+* Reduce is not build in it need to import form functools.
+
+**Thoughts**: This time I use schedule for management my learning time I hope it will be good.

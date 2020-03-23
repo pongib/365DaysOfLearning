@@ -774,3 +774,17 @@ it will reference on same address if I remove value in my_list2 it will effect o
 * Reduce is not build in it need to import form functools.
 
 **Thoughts**: This time I use schedule for management my learning time I hope it will be good.
+
+## Day 83: Mar 23, 2020
+
+**TIL**: Learn how to use sorted with lambda.
+* Or can use str.lower methon instead.
+* Can access dict with d['name'] not d.name
+* If use f'' make sure in expression didn't have ' in it.
+* For example f'This is a d['book']' will error. Correct is
+* f'This is a d["book"]' or f"This is a d['book']".
+* Condition expression is short hand for if else. my_var = 20 if CONDITION else 28.
+* Example: my_var = 20 if False else 28. my_var will equal 28.
+* It useful when need to assign to value and don't write to much code.
+
+**Thoughts**: I will not write untill I finish my schedule learning so sometime I will late to write to github. This time I forgot how to access dict LOL. I think lambda is very useful.

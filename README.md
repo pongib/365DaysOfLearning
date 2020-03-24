@@ -788,3 +788,14 @@ it will reference on same address if I remove value in my_list2 it will effect o
 * It useful when need to assign to value and don't write to much code.
 
 **Thoughts**: I will not write untill I finish my schedule learning so sometime I will late to write to github. This time I forgot how to access dict LOL. I think lambda is very useful.
+
+## Day 84: Mar 24, 2020
+
+**TIL**: Mostly is create custom jwt in cloud endpoints and a bit of python.
+* Service account can use with x509 or jwks with public link, no need to create our domain.
+* x509 with https://www.googleapis.com/service_accounts/v1/metadata/x509/sa-name@gserviceaccount.com
+* jwks with https://www.googleapis.com/service_accounts/v1/jwk/sa-name@gserviceaccount.com
+* This methon is sign token with RS256.
+* Do lab: Change from condition statement to  condition expression.
+
+**Thoughts**: I think it will hard to create jwk public but it very easy with that gcloud support.

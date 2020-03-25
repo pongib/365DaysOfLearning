@@ -799,3 +799,16 @@ it will reference on same address if I remove value in my_list2 it will effect o
 * Do lab: Change from condition statement to  condition expression.
 
 **Thoughts**: I think it will hard to create jwk public but it very easy with that gcloud support.
+
+
+## Day 85: Mar 25, 2020
+
+**TIL**: Review how to add domain and verify and use it with endpoint.
+* A bit about API versioning.
+* Everyting is about openapi.yaml and argument service at endpoint container in deployment.yaml.
+* Not relate with DNS but require to check if dns is exist when deploy openapi.
+* Learn how to import with python and name entity concept.
+* Name entity in everything that can be name in that file.py.
+* Such as function name, variable name. Can import and call or reference from that name.
+
+**Thoughts**: Not learn python much I will try learn python first in tomorrow.

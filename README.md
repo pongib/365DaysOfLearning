@@ -812,3 +812,24 @@ it will reference on same address if I remove value in my_list2 it will effect o
 * Such as function name, variable name. Can import and call or reference from that name.
 
 **Thoughts**: Not learn python much I will try learn python first in tomorrow.
+
+## Day 86: Mar 26, 2020
+
+**TIL**: Learn import stuff in python.
+* Import from module, package.
+* Use ``__init__`` for handle export method.
+* Search package or module order is build in -> path file.
+* If not found in build in will look for path file.
+* PYTHONPATH='absolute/path or realative path' python3 is way to add path for python to search specific module in other folder.
+* Build in module will overwrite specific module.
+* Since python3.3 it no need to create ``__init__`` for use package.
+* Hidden module use with from module_name import *
+* Hidden module is use ``__all__ = ['method name']`` of use underscore _method_name for private it.
+* But can still access if use from module_name import that_private_method_name.
+* Can excecute module as script with -m flag.
+* Example python3 -m module_name
+* ``__name__`` if it main script it will assign to ``__main__``.
+* Other module will ``__name__`` as it file name.
+
+**Thoughts**: So long about just import thing.
+**Pomodoros**: 4

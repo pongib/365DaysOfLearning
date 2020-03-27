@@ -832,4 +832,24 @@ it will reference on same address if I remove value in my_list2 it will effect o
 * Other module will ``__name__`` as it file name.
 
 **Thoughts**: So long about just import thing.
+
 **Pomodoros**: 4
+
+## Day 87: Mar 27, 2020
+
+**TIL**: Mostly is gateway stuff.
+* Read TYK updater and how to reload it with created file and call reload api.
+* How to versioning endpoint in scenario compatible and incompatible.
+* It can have multiple openapi file but need to deploy in one command.
+* SDK execute multiple file to one file. But can have multiple version.
+* Don't use same path name in different version.
+* Create private and public path.
+* CORS in endpoint but it apply to all path. If want more custom need to use nginx config.
+* I think use cors in express layer is better.
+* Just know that ESP with rollout_strategy='managed' is need to wait up to 5 min before config will applied.
+* It recommend for use managed not specific config id.
+* Just look video for python how to create package and how to install it public.
+
+**Thoughts**: Spend more with gateway stuff when learn python at midnight it feel sleepy.
+
+**Pomodoros**: 8 + 1

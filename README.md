@@ -853,3 +853,22 @@ it will reference on same address if I remove value in my_list2 it will effect o
 **Thoughts**: Spend more with gateway stuff when learn python at midnight it feel sleepy.
 
 **Pomodoros**: 8 + 1
+
+## Day 88: Mar 28, 2020
+
+**TIL**: Learn how to create distribute package with wheel.
+* Use tree command for view directory structure.
+* Python have pypi for view package.
+* Use pypa sample project to create setup file.
+* Download only one setup file via github with 
+```bash
+curl -O https://raw.githubusercontent.com/pypa/sampleproject/master/setup.py
+```
+* __python3 setup.py bdist_wheel__ for create distribute file.
+* __pip3 install that_wheel_file__ will install package to site_package that sys.path will lookfor it when import package in python code.
+* Can uninstall it with __pip3 uninstall that_wheel_file__.
+* Package name that in setup file must be same name as package folder name.
+
+**Thoughts**: Quite hot head when command don't work so I need to dig to root cause and spend more time debug it.
+
+**Pomodoros**: 3

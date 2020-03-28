@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/helpers_pack/__init__.py
+src/helpers_pack/another.py
+src/helpers_pack/helpers.py
+src/helpers_pack.egg-info/PKG-INFO
+src/helpers_pack.egg-info/SOURCES.txt
+src/helpers_pack.egg-info/dependency_links.txt
+src/helpers_pack.egg-info/top_level.txt

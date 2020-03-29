@@ -872,3 +872,29 @@ curl -O https://raw.githubusercontent.com/pypa/sampleproject/master/setup.py
 **Thoughts**: Quite hot head when command don't work so I need to dig to root cause and spend more time debug it.
 
 **Pomodoros**: 3
+
+
+## Day 89: Mar 29, 2020
+
+**TIL**: Learn docstring and doctest and shebang in python
+* There is some usuful command I found.
+* __pip3 uninstall -y helpers_pack__ -y is confirm for not type everytime.
+* __pip3 install --editable .__ install local package with no need to install it again when code change.
+* __``helpers_pack.__doc__``__ is view docstring.
+* Docstring is string document sith """ DOC """ in header file can use in package or module or even fuction.
+* __python3 -m doctest src/helpers_pack/helpers.py --verbose__ to run doc test in function. Like this
+
+``"""
+DOCUMENT HERE
+``>>>`` function_in_module(name)
+['a', 'b', 'c'] #Expect result function is this line it like assert.
+"""``
+
+**Thoughts**: I struck for create package in lab. So I use local instead but unfortually my glasses is broken so I need to stop it for today.
+
+**Pomodoros**: 4
+
+
+
+
+

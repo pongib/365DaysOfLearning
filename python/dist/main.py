@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# called shebang
+# /usr/local/bin/python3
+
 # form package import module
 from helpers_pack import another
 # import package

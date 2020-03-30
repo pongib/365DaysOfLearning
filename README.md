@@ -895,6 +895,15 @@ DOCUMENT HERE
 **Pomodoros**: 4
 
 
+## Day 90: Mar 30, 2020
+
+**TIL**: Complete yesterday lab on my local. I found mistake that I didn't write command __package_dir={'': 'src'}__ in setup file. So it cannot see my packages.
+* Can use __pip3 install --user package_name__ to install when permission is proble.
+* Learn tool and technique for เราไม่ทิ้งกัน infrastructure for handle 20m register from facebook live.
+
+**Thoughts**: It awesome that see big success work in my country.
+
+**Pomodoros**: 2
 
 
 

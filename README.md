@@ -905,5 +905,14 @@ DOCUMENT HERE
 
 **Pomodoros**: 2
 
+## Day 91: Mar 31, 2020
+
+**TIL**: Learn life experience from my ancle on tomb sweeping day and learn a bit on object in python.
+* Can use dir(object) to see all value and method.
+* Everything in python is object.
+
+**Thoughts**: That learn lesson today, it question me that who am I.
+
+**Pomodoros**: 0.5
 
 

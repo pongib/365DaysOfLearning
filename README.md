@@ -915,4 +915,16 @@ DOCUMENT HERE
 
 **Pomodoros**: 0.5
 
+## Day 92: Apr 1, 2020
+
+**TIL**: Basic Class in python.
+* ``__init__`` for setup variable.
+* @classmethod a methon that return class, it called decoration use for return class to be instance not methon alone and have access to other methon or variable useful when want to change some attribute in class. It live with in class.
+* Can add attribute attach to instance or change current attribute on current instance. Attribut for me mean variable and function.
+* self is keyword for reference attribute both variable or function.
+
+**Thoughts**: Feeling confusing for myself. Not this python lesson but myself question.
+
+**Pomodoros**: 2
+
 

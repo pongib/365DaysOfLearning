@@ -12,11 +12,11 @@ class Body:
         self.name = name
         self.organ = organ
 
-    @classmethod
-    def bacteria(cls, name='Peter', organ=None):
-        if not organ:
-            organ = cls.default_organ
-        return cls(name, organ)
+    # @classmethod
+    # def bacteria(cls, name='Peter', organ=None):
+    #     if not organ:
+    #         organ = cls.default_organ
+    #     return cls(name, organ)
 
     def printX(self):
         print('xxxxx')
@@ -24,3 +24,8 @@ class Body:
 
     def lookup(self):
         print(f'Body name {self.name} and have {self.organ} organ. with {self.printX()}')
+
+    def description(self):
+        return f'Body from class {self.__class__.__name__} with name {self.name} and have {self.organ} organ.'
+
+    

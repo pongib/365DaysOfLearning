@@ -927,4 +927,14 @@ DOCUMENT HERE
 
 **Pomodoros**: 2
 
+## Day 93: Apr 2, 2020
+
+**TIL**: Inheritance and multiple inheritance.
+* self.__class__.__name__ for read class name.
+* Use super for refer to parent class.
+
+**Thoughts**: Not understand multiple inheritance and it method resolution order. I will try again tomorrow.
+
+**Pomodoros**: 2
+
 

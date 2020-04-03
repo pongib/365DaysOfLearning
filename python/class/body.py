@@ -11,6 +11,7 @@ class Body:
         """
         self.name = name
         self.organ = organ
+        self.distance_traveled = 0
 
     # @classmethod
     # def bacteria(cls, name='Peter', organ=None):

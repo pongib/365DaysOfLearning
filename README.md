@@ -938,3 +938,19 @@ DOCUMENT HERE
 **Pomodoros**: 2
 
 
+## Day 94: Apr 3, 2020
+
+**TIL**: MRO methon resolution order in python.
+* Just know that if send key value argument that didn't match key in parameter it will error.
+* ``Classname.__mro__`` to see order of method when super() is referred.
+* Use **kwargs to pass key word argument to other class useful when have multiple parameter in class.
+* **kwargs is dictionary.
+* Use self.method when don't want to redefind any method.
+* Use super when name of parent class is same as child class.
+* Use key value argument is effective than position argument when have multiple class.
+
+**Thoughts**: Finally understand multiple class. But it feel not learn to much.
+
+**Pomodoros**: 2
+
+

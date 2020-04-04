@@ -953,4 +953,14 @@ DOCUMENT HERE
 
 **Pomodoros**: 2
 
+## Day 95: Apr 4, 2020
+
+**TIL**: Mangling in python.
+* Can use __function for private method.
+* Mangling use for same name method in both parent and child. But child didn't have init and want to create instace with init and have to invoke parent function not child function,So to use local parent method (with same name as child) it must use mangle with __function_name.
+
+**Thoughts**: I think it not useful at all LOL. I want to learn thing more practical than this. Maybe it downside of learn from class that prepare to certified.
+
+**Pomodoros**: 1.5
+
 

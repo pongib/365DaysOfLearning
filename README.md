@@ -963,4 +963,20 @@ DOCUMENT HERE
 
 **Pomodoros**: 1.5
 
+## Day 96: Apr 5, 2020
+
+**TIL**: Mostly is CI with cloud endpoint and incomplete python object lookup.
+* Jenkinsfile have code that have it own clone branch to folder, not show in jk config.
+* Can deploy develop directly not have to change any code to test deploy.
+* Can use name for represent port not port digit directly in container port.
+* Gcloud reserve external ip for service type LoadBalancer and when deploy again it not change.
+* debug flag on helm will show all file template that deploy included all env.
+* Divide task to small and cover all fundamental is the best way to adapter to complex ci.
+* A bit on ``__bases__`` , ``__subclasses__`` for know who is parent and child.
+* dir() have some attribute that not show such as ``__bases__``.
+
+**Thoughts**: Cool part is when I can deploy it success I felt very good. Sometime I didn't remember what my goal for learn python is, LOL, I will go back to my track again.
+
+**Pomodoros**: 4 + 0.5
+
 

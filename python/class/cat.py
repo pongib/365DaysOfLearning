@@ -4,10 +4,10 @@ class Cat(Body):
     
     default_organ = 1
 
-    def __init__(self, name='bact', organ=None, rank='F', distance_traveled=0, meow=True, **kwargs):
+    def __init__(self, name='cat', organ=None, rank='F', distance_traveled=0, meow=True, **kwargs):
         if not organ:
             organ = self.default_organ
-        initial = super().__init__(name=name, organ=organ, rank=rank, **kwargs)
+        initial = super().__init__(name=name, organ=organ, **kwargs)
         self.rank = rank
 
     def meow(self, distance):

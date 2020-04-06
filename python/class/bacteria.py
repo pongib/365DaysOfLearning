@@ -7,7 +7,7 @@ class Bacteria(Body):
     def __init__(self, name='bact', organ=None, rank='F', **kwargs):
         if not organ:
             organ = self.default_organ
-        initial = super().__init__(name=name, organ=organ, rank=rank, **kwargs)
+        initial = super().__init__(name=name, organ=organ, **kwargs)
         self.rank = rank
 
     def description(self):

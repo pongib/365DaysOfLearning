@@ -23,6 +23,11 @@ class Cog(Cat, Bacteria, Dog):
         self.meow(10)
         self.bark(15)
 
+    def __str__(self):
+        return f'''Name {self.__class__.__name__} with dict {self.__dict__}
+        xxx
+        '''
+
 
 if __name__ == '__main__':
     cog = Cog(rank='S')

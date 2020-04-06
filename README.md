@@ -980,3 +980,23 @@ DOCUMENT HERE
 **Pomodoros**: 4 + 0.5
 
 
+## Day 97: Apr 6, 2020
+
+**TIL**: Attribute in python class.
+* If parameter that class not use it will not show in __dict__ even it have default value assigned
+* If use cog.``__module__`` and it return ``__main__`` it mean it load from that module. Normally it return like module cat for example cat.``__module__`` will return cat.
+* Instace of class has no attribute ``__bases__`` and ``__subclasses__`` only Class itself have.
+* Use __str__ to customize print detail of instance for better debug purpose.
+
+**Thoughts**: It almost done for class stuff. Useful thing for this time is custom method for debug.
+
+**Pomodoros**: 2
+
+
+
+
+
+
+
+
+

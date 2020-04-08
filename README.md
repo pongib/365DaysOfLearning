@@ -992,6 +992,25 @@ DOCUMENT HERE
 
 **Pomodoros**: 2
 
+## Day 98: Apr 7, 2020
+
+**TIL**: Do class lab in python.
+* Set is dict that have only value or key and it unorderd on indexed.
+* Zip is combined of one or more list and return tuple with each element. If one list it will be ``{(2,), (3,), (1,)}``
+* If declare vaiable in class it will share it with other instance. But if declare in ``__init__`` it will use only in that instance not shared.
+
+**Thoughts**: I forgot how to use sort so I need to open w3 for document. Also forgot how to convert tuple to dict LOL.
+
+**Pomodoros**: 2
+
+## Day 99: Apr 8, 2020
+
+**TIL**: Do a work and fix bug and little python file with mode r, w, r+, w+, x, a.
+
+**Thoughts**: Spend time to work exceed my limit and I found if I learn too much like this it feel very intense but it increase my capacity I decide to not learn much because I won't remember anything so sleep is better idea. Tomorrow I will try to learn at lease 4 pomodoro.
+
+**Pomodoros**: 20 + 0.3
+
 
 
 

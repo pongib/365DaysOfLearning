@@ -1011,6 +1011,20 @@ DOCUMENT HERE
 
 **Pomodoros**: 20 + 0.3
 
+## Day 100: Apr 9, 2020
+
+**TIL**: Learn how to redirect via nginx.
+* Just known that cannot redirect with CNAME in dns it use for record purpose.
+* Can redirect by use nginx.ingress.kubernetes.io/temporal-redirect: https://example.com via annotation in ingress.
+* Ingress resource is useful when it have ingress controller install first.
+* It can install with __helm install my-nginx stable/nginx-ingress__
+
+**Thoughts**: Not learn python today and feel lazy don't know why. Still can't do what I expected.
+
+**Pomodoros**: 2
+
+
+
 
 
 

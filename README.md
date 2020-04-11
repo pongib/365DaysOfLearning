@@ -1023,6 +1023,33 @@ DOCUMENT HERE
 
 **Pomodoros**: 2
 
+## Day 101: Apr 10, 2020
+
+**TIL**: File in python.
+* r+ + mean opposite of read is write so this mode is have both read and write.
+* r+t t mean return text.
+* r+b b mean return in byte.
+* If open file it must close to good pratice.
+* Lazy to close file everytime can use with syntax, it will close file automatic no need to write code manually.
+* Core concept for file manipulate is cursor it have cursor and move forward when write. So when want to read, it will read from current cursor position.
+* If want to read all file when not already close, need to use my_file.seek(0) to move cursor position to start of file and read it untill end of file.
+* my_file.readlines() will return list of txt seperate with \n.
+
+**Thoughts**: Try not to learn today but after wash my face it feel want to complete, I'm not the same person who always procastinate.
+
+**Pomodoros**: 1
+
+## Day 102: Apr 11, 2020
+
+**TIL**: Review file in python.
+* Need to move seek to 0 when want to use read or readlines everytime.
+* If not use close properly some change to file may not effect.
+* with statement will release resource properly, I mean auto close file, it will make code no bug.
+
+**Thoughts**: Very lazy for today but still need to learn.
+
+**Pomodoros**: 1
+
 
 
 

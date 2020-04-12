@@ -1050,6 +1050,18 @@ DOCUMENT HERE
 
 **Pomodoros**: 1
 
+## Day 103: Apr 12, 2020
+
+**TIL**: Do file lab, it combine of classmethod and for sure I forget it. Still not finish yet I will complete it tomorrow.
+* byte in python and it immutable like string.
+* But bytearray is mutable it can change with slice or use position, if use position it need to be hex type for example 0x11.
+* my_file.readinto(bytearray(10)) can read file and store to bytearray.
+* my_file.read(10) it read from current seek position to 10.
+* bytearray(my_file.read(10)) it store byte data from read to bytearray it equal to my_file.readinto(bytearray(10)).
+
+**Thoughts**: I think it not practical much I need more lesson that very practical than this. It make me not fun and learn like when I'm at school. I know because this course design for certificate.
+
+**Pomodoros**: 4
 
 
 

@@ -1063,6 +1063,29 @@ DOCUMENT HERE
 
 **Pomodoros**: 4
 
+## Day 104: Apr 13, 2020
+
+**TIL**: Finish yesterday lab and use other function that I learned.
+* enumerate can return with index. Ex: for index, line in enumerate(f.readlines()).
+* str.strip(), str.lstrip(), str.rstrip() it like trim() in JS but can select with side to trim.
+* Can set default value from unpack, use with *varible. It combine with condition expression. 
+Ex:
+```
+a, b, *c = [1, 2, 3]
+c = c[0] if c else None
+assert c == 3
+
+a, b, *c = [1, 2]
+c = c[0] if c else None
+assert c == None
+```
+
+**Thoughts**: This is second time that I stuck and I go search on google how to use index and strip in python. It good sign.
+
+**Pomodoros**: 1.5
+
+
+
 
 
 

@@ -1084,6 +1084,19 @@ assert c == None
 
 **Pomodoros**: 1.5
 
+## Day 105: Apr 14, 2020
+
+**TIL**: Try to use SSL with cloud endpoint.
+* Most part for this is bug from end of line error. It from -----END CERTIFICATE----- error that not in correct structure.
+* It must be our.crt intermediate.crt root.crt for concat to cert.crt for use.
+* esp will cacahe mount volume for a while so when change nginx.crt it take sometime to take effect.
+* nginx in esp default certificate file named is nginx.crt and nginx.key so need to make sure file is named correctly.
+* It can't use secret object in k8s with tls type it only use opaque that is default type.
+
+**Thoughts**: Feel excite when read story of great thai people that will be researcher. And this bug make me frustrated for a while because I think I can do it at first try.
+
+**Pomodoros**: 4
+
 
 
 

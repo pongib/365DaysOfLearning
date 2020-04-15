@@ -1097,6 +1097,21 @@ assert c == None
 
 **Pomodoros**: 4
 
+## Day 106: Apr 15, 2020
+
+**TIL**: Most time is spend with work on deploy gw with project.
+* Learn how to write helm with variable.
+* Use template in openapi when path is variable. It need to config and require more parameter than usally such as parameter: require, type.
+* Endpoint is work only jwt and apikey that is google api key it will validate but other custom api key is not process by endpoints, security definition must specific with type ApiKey and name is 'key' in query.
+* Apikey can restrict to api and endpoint name is one of api service, so can restrict with name of endpoint that I deploy.
+* Apikey is for identify suitable for project such as web or service not for user. User must use token that from authenticate and authorize.
+* It can also call endpoint in ClusterIp for internal backend.
+* When need new sub domain, domain verify need mail that verifid domain for deploy openapi config for first time then can use service account for deploy later.
+
+**Thoughts**: Spend more time to learn and do it in real situation but also want to learn python next time will balance time better.
+
+**Pomodoros**: 8
+
 
 
 

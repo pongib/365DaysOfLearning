@@ -1112,6 +1112,22 @@ assert c == None
 
 **Pomodoros**: 8
 
+## Day 107: Apr 16, 2020
+
+**TIL**: Learn how to use *(asterisk) syntax in python.
+* [1] + [1] = [1,1]
+* [0] * 3 = [0, 0, 0] or (0,) * 3 = (0,0,0)
+* *args or **kwargs called for packing or variadic argument. For accept arbitary parameter.
+* *args use for positional argument and packing to tuple.
+* **kwargs use for key word argument and pakcing to dict.
+* def(**kwargs, *args): will raise Error because position not follow keyword argument.
+* func(*numbers) use for unpack list to argument for call function.
+* a, b*, c = [1,2,3,4,5] a = 1, b = [2,3,4], c = 5
+
+**Thoughts**: It very fun that asterisk can use in multiple way in python here I learn form this [link](https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558)
+
+**Pomodoros**: 2
+
 
 
 

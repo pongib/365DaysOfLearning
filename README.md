@@ -1128,6 +1128,19 @@ assert c == None
 
 **Pomodoros**: 2
 
+## Day 108: Apr 17, 2020
+
+**TIL**: Learn how to use exception in python.
+* except: (IndexError, KeyError) can be multiple exception in tuple.
+* If class (sub-class) that inherit from that exception class (parent-class) still can go to that exception even not write it down explicit.
+* else is happy path when exception not raise.
+* finally still call even have exception.
+* sys.argv is list of all argument when run python script.
+
+**Thoughts**: A little progress. I plan to use all my python knowledge to create cli with my work project, for now in research stage.
+
+**Pomodoros**: 1
+
 
 
 

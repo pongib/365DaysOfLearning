@@ -1141,6 +1141,20 @@ assert c == None
 
 **Pomodoros**: 1
 
+## Day 109: Apr 18, 2020
+
+**TIL**: Try to figure it out why IP not show in log of cloud endpoint.
+* Remove service object that have external ip will release ephemeral ip.
+* Try use x-forward-for but it didn't work.
+* Can use gcloud endpoints service list and gcloud endpoints services delete NAME.
+* I found this to solve the issue that is add this to service externalTrafficPolicy: Local.
+* It will not cause to second hop for loadbalance service type and keep client ip but will have issue about traffic spread. This [ref](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/#preserving-the-client-source-ip)
+* My intuition from this is sidecar pattern compare to old one with have one container in pod.
+
+**Thoughts**: First I want to learn python again but this issue struck in my mind and make me to overcome this. This time I will know ip that try to bruteforce my endpoint.
+
+**Pomodoros**: 4
+
 
 
 

@@ -1155,6 +1155,16 @@ assert c == None
 
 **Pomodoros**: 4
 
+## Day 110: Apr 19, 2020
+
+**TIL**: A bit on Exception.
+* Relearn about Class.``__bases__`` and Class.``__subclasses__()``
+* Use raise keyword for throw error.
+
+**Thoughts**: Not much for today. I sleep very late and not much on learning, feel bad :(
+
+**Pomodoros**: 1
+
 
 
 

@@ -1165,11 +1165,39 @@ assert c == None
 
 **Pomodoros**: 1
 
+## Day 111: Apr 20, 2020
+
+**TIL**: Still on raise keyword try to use it with try except keyword.
+* Exception class is kind of parent of all error class.
+* raise keyword with error class will show Traceback error detail.
+* It have a lot of error class to specific and deal with it can see via Exception.``__subclasses__``() and also have child under that child class.
+* Update sql with created_at is '0000-00-00 00:00:00' is solved by CAST function.
+```sql
+UPDATE `code` SET created_at = updated_at where CAST(created_at AS CHAR(20)) = '0000-00-00 00:00:00'
+```
+
+**Thoughts**: Still lazy but this phase pop in my head if I don't walk, just crawl.
+
+**Pomodoros**: 1
 
 
 
 
 
+
+
+
+
+
+
+
+UPDATE `item_code` SET created_at = updated_at where created_at = '0000-00-00 00:00:00'
+
+Incorrect datetime value: '0000-00-00 00:00:00' for column 'created_at' at row 1
+
+UPDATE `item_code` SET created_at = updated_at where created_at = '0'
+
+UPDATE `item_code` SET created_at = updated_at where CAST(created_at AS CHAR(20)) = '0000-00-00 00:00:00'
 
 
 

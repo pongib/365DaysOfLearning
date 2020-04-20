@@ -6,6 +6,9 @@ import random
 # run with python3 exception.py xxx yyy zzz
 try:
     print(f'input is {sys.argv[1]}')
+    print(f'length {len(sys.argv)}')
+    if len(sys.argv) < 3:
+        raise Exception('Need to put more keyword.')
     args = sys.argv
     random.shuffle(args)
     print(f'random is {args[0]}')
@@ -15,8 +18,9 @@ except (IndexError, KeyError) as err:
 except NameError:
     print(f'Not found random module.')
     # sys.exit(1)
-except:
-    print('Last error')
+except Exception as err:
+    print(f'Last error is {err}')
+    raise err
 else: # kind of happy path that error don't occur
     print('This is else')
 finally:

@@ -1181,26 +1181,14 @@ UPDATE `code` SET created_at = updated_at where CAST(created_at AS CHAR(20)) = '
 **Pomodoros**: 1
 
 
+## Day 112: Apr 21, 2020
 
+**TIL**: Python Error and relearn doctest and shebang.
+* Use custom error that class inherite from Exception.
+* Use assertion when want to debug and raise error and see how my code react.
+* -O flag is use for optimize in production that will remove assert in my code, so it will skip assert part and make weired logic to our program.
+* -OO is do what -O does plus remove docstring.
 
+**Thoughts**: Try back to learn early and it work well.
 
-
-
-
-
-
-
-
-UPDATE `item_code` SET created_at = updated_at where created_at = '0000-00-00 00:00:00'
-
-Incorrect datetime value: '0000-00-00 00:00:00' for column 'created_at' at row 1
-
-UPDATE `item_code` SET created_at = updated_at where created_at = '0'
-
-UPDATE `item_code` SET created_at = updated_at where CAST(created_at AS CHAR(20)) = '0000-00-00 00:00:00'
-
-
-
-
-
-
+**Pomodoros**: 2

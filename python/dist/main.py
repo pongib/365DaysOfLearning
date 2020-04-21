@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# called shebang
+# called shebang, can change to specific excecutable.
 # /usr/local/bin/python3
 
 # form package import module

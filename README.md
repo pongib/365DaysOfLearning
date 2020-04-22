@@ -1192,3 +1192,25 @@ UPDATE `code` SET created_at = updated_at where CAST(created_at AS CHAR(20)) = '
 **Thoughts**: Try back to learn early and it work well.
 
 **Pomodoros**: 2
+
+## Day 113: Apr 22, 2020
+
+**TIL**: Do exception lab.
+* Just know varible in try except is not have local scope it global scope
+```python
+try:
+    f = open("root_files/name_repeated.txt", "w")
+except (OSError, IOError) as err:
+    print(f'File error is {err}')
+else:
+    names = [name + "\n" for i in range(1, repeat_count + 1)]
+    f.writelines(names)
+    f.close()
+```
+see f vaialble can be reference in both try and else.
+* sys.exit(1) is exit code not do the rest. 1 not 0 mean exit with an error.
+* Learn kaggle progess. Just know it have free GPU to train.
+
+**Thoughts**: Love kaggle very much I will pratice myself in here. I dream to be grandmaster LOL.
+
+**Pomodoros**: 2

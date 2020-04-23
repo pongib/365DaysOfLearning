@@ -1207,10 +1207,47 @@ else:
     f.writelines(names)
     f.close()
 ```
-see f vaialble can be reference in both try and else.
+see f variable can be reference in both try and else, not like js that is local scope.
 * sys.exit(1) is exit code not do the rest. 1 not 0 mean exit with an error.
 * Learn kaggle progess. Just know it have free GPU to train.
 
 **Thoughts**: Love kaggle very much I will pratice myself in here. I dream to be grandmaster LOL.
 
 **Pomodoros**: 2
+
+## Day 114: Apr 23, 2020
+
+**TIL**: Try assessment python on pluralsight got 208 but found a lot that I didn't know.
+* ``__iter__`` and ``__next__`` is make class iterable.
+* debug module in python.
+* wite statement use with other thing than open file.
+* Just know that can use '''string name''' triple single quote with string.
+* Python package no need to use ``__init__`` to import package.
+* Use multiple if in list comprehensive that if is nested if. Example
+```python
+[i for i in range(100) if i > 10 if i < 20]
+
+or
+
+[i for i in range(100) if 10 < i < 20]
+
+is equal to
+
+arr = []
+for i in range(100):
+  if i > 10:
+    if i < 20:
+      arr.append(i)
+
+```
+* In sequelize learn how to use reload, increment and save.
+* txn.reload() is select command again from database.
+* instance.save() is not effect if other is in tranasction.
+* Learn more about kaggle and found that china and russia also have competetive like kaggle.
+
+**Thoughts**: First try feel bad that have lower score but after change my attitude, I feel good that I can learn a lot from my mistake and know better. I have set and with statement to findout more.
+
+**Pomodoros**: 4
+
+
+

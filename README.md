@@ -1251,3 +1251,19 @@ for i in range(100):
 
 
 
+## Day 114: Apr 23, 2020
+
+**TIL**: Try last python lab and review scope lesson in python.
+* remove(file) can remove file import via os.
+* Class in file can reference regradless put in head or bottom of file.
+* Python doesn't have variable declarations, so it has to figure out the scope of variables itself. It does so by a simple rule: If there is an assignment to a variable inside a function, that variable is considered local.
+* Condition and loop do not defind their own scope.
+* Parameter always win global.
+* Sum-up scope can reference in function, new assign is new variable called shadowing, 
+use outter variable in local scope via global, also can reference variable in local to outter via global variable that assign inside local function scope.
+
+**Thoughts**: It feel good that review scope lesson again because at first I confused some concept but now is cleary.
+
+**Pomodoros**: 2
+
+

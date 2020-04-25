@@ -1250,10 +1250,10 @@ for i in range(100):
 **Pomodoros**: 4
 
 
-
-## Day 114: Apr 23, 2020
+## Day 115: Apr 24, 2020
 
 **TIL**: Try last python lab and review scope lesson in python.
+* It have error FileNotFoundError and PermissionError.
 * remove(file) can remove file import via os.
 * Class in file can reference regradless put in head or bottom of file.
 * Python doesn't have variable declarations, so it has to figure out the scope of variables itself. It does so by a simple rule: If there is an assignment to a variable inside a function, that variable is considered local.
@@ -1265,5 +1265,22 @@ use outter variable in local scope via global, also can reference variable in lo
 **Thoughts**: It feel good that review scope lesson again because at first I confused some concept but now is cleary.
 
 **Pomodoros**: 2
+
+## Day 116: Apr 25, 2020
+
+**TIL**: Learn how to use with statement.
+* It use for acquire and release resource.
+* Must have 2 function ``__enter__`` for acquire and ``__exit__`` for release.
+* If use this class with with statement, after create class it will call ``__enter__``
+and execute code after excecute complete it call ``__exit__`` for release resource.
+* ``__enter__`` and ``__exit__`` are called context manager.
+* In ``__enter__`` must return resource descriptor such as file from open function.
+* ref [1](https://www.geeksforgeeks.org/with-statement-in-python/),[2](https://docs.python.org/2.5/whatsnew/pep-343.html)
+
+**Thoughts**: This time I learn with out any course instruction, feel very fun when want to know something and no need to wait teacher to taught.
+
+**Pomodoros**: 2
+
+
 
 

@@ -1281,6 +1281,68 @@ and execute code after excecute complete it call ``__exit__`` for release resour
 
 **Pomodoros**: 2
 
+## Day 117: Apr 26, 2020
+
+**TIL**: Learn one of common mistake in python. ref [link](https://www.toptal.com/python/top-10-mistakes-that-python-programmers-make)
+* except Exception as e: will transform to
+```python
+try:
+  connentDb()
+except DbError as e:
+  print(f'Error {e}')
+
+  will translated to 
+
+try:
+  connentDb()
+except DbError as e:
+  try:
+    print(f'Error {e}')
+  finally:
+    del e
+```
+So this will raise issue if you use e as vairable in that function
+```python
+def bad():    
+    e = None
+    try:        
+        bar(int(sys.argv[1]))
+    except KeyError as e:        
+        print('key error')
+    except ValueError as e:
+        print('value error')
+    print(e)
+```
+So print(e) will error like UnboundLocalError: local variable 'e' referenced before assignment because when except statement is translated it will delete e, so print(e) will raise error because e is deleted.
+
+Solution for this is use another variable for reference that e in except scope.
+For example.
+
+```python
+def good():    
+    exception = None
+    try:        
+        bar(int(sys.argv[1]))
+    except KeyError as e:        
+        print('key error')
+        exception = e
+    except ValueError as e:
+        print('value error')
+        exception = e
+    print(exception)
+```
+
+* Just hear word like reference cycle and stack frame. Just know about reference cycle.
+It is object that refer to itself. [ref](https://stackoverflow.com/questions/9910774/what-is-a-reference-cycle-in-python)
+```python
+l = []
+l.append(l)
+```
+**Thoughts**: I didn't do final test yet and will try tomorrow. I didn't read whole pitfall topic but will learn it by pick one topic per day LOL.
+
+**Pomodoros**: 2
+
+
 
 
 

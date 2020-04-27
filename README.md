@@ -1342,6 +1342,22 @@ l.append(l)
 
 **Pomodoros**: 2
 
+## Day 118: Apr 27, 2020
+
+**TIL**: Jump myself to data scientist world on data camp. Learn how to use pandas.
+* Just know that table data in pandas is called DataFrame that I known before but already forget.
+* Use dict to create data frame.
+* Import from csv file to create data frame.
+* Use index_col for index row.
+
+**Thoughts**: I will create plan for this learning and need to mix with dl course and fast.ai course.
+
+**Pomodoros**: 1
+
+
+
+
+
 
 
 

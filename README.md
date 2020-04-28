@@ -1354,6 +1354,21 @@ l.append(l)
 
 **Pomodoros**: 1
 
+## Day 119: Apr 28, 2020
+
+**TIL**: A bit on loc and iloc will try practice tmr.
+* If use double square bracket, array_df[[]] will return dataframe object.
+* If use single square bracket, array_df[] will return series object.
+* loc use for row label.
+* iloc use for index.
+* dataframe can select column by array_df[['column_name']] and row with array_df[1:4].
+* but with loc and iloc can use to select column, row or both with one function.
+* array_df[['column_name1', 'column_name2'], ['row1_label', 'row2_label']]
+
+**Thoughts**: I forget numpy array will learn it first and continue on dataframe.
+
+**Pomodoros**: 1
+
 
 
 

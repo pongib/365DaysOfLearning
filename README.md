@@ -1363,11 +1363,26 @@ l.append(l)
 * iloc use for index.
 * dataframe can select column by array_df[['column_name']] and row with array_df[1:4].
 * but with loc and iloc can use to select column, row or both with one function.
-* array_df[['column_name1', 'column_name2'], ['row1_label', 'row2_label']]
+* array_df.loc[['column_name1', 'column_name2'], ['row1_label', 'row2_label']]
 
 **Thoughts**: I forget numpy array will learn it first and continue on dataframe.
 
 **Pomodoros**: 1
+
+## Day 120: Apr 29, 2020
+
+**TIL**: Learn 1D numpy array.
+* It can operate in an array like np.array([1,2,3]) * 2 = np.array([2,4,6])
+* It can filter with condition expression like 
+np.array([1,2,3]) > 3 = np.array([False,False,True])
+* Can apply filter for get result.
+* Have type coercion.
+
+
+**Thoughts**: Tomorrow will learn 2D numpy array. This lib is amazing.
+
+**Pomodoros**: 1.5
+
 
 
 

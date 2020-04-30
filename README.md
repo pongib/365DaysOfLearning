@@ -1383,6 +1383,14 @@ np.array([1,2,3]) > 3 = np.array([False,False,True])
 
 **Pomodoros**: 1.5
 
+## Day 121: Apr 30, 2020
+
+**TIL**: A liitle on 2D numpy array and how to access it.
+
+**Thoughts**: I have some home problem to solve that make me sick and effect my learn.
+
+**Pomodoros**: 0.5
+
 
 
 

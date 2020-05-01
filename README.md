@@ -1391,6 +1391,32 @@ np.array([1,2,3]) > 3 = np.array([False,False,True])
 
 **Pomodoros**: 0.5
 
+## Day 122: Sep 1, 2020
+
+**TIL**: Hand on numpy 2D array.
+* Mostly like 1D array but have slice and sugar syntax with np_array[row, column]
+and can use with slice ex. np_array[2:6, 3]
+* very like
+```python
+import numpy as np
+np_mat = np.array([[1, 2],
+                   [3, 4],
+                   [5, 6]])
+
+np_mat + np.array([10, 10])
+
+equal to.
+
+array([[11, 12],
+       [13, 14],
+       [15, 16]])
+```
+
+**Thoughts**: Numpy it very easy to use and very intuitive.
+
+**Pomodoros**: 1
+
+
 
 
 

@@ -1416,6 +1416,15 @@ array([[11, 12],
 
 **Pomodoros**: 1
 
+## Day 123: Sep 2, 2020
+
+**TIL**: Basic stat with numpy.
+* std, mean, median, corrcoef(column_list_1, column_list_2)
+
+**Thoughts**: Very useful when want to describe data.
+
+**Pomodoros**: 1
+
 
 
 

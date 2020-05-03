@@ -1425,6 +1425,22 @@ array([[11, 12],
 
 **Pomodoros**: 1
 
+## Day 124: Sep 3, 2020
+
+**TIL**: Use loc and iloc in dataframe and series.
+* It like 2D numpy array except it need .loc or .iloc not use directly.
+* Can use slice with df.loc[:, ['column1']].
+* Row index can be string if it use row only but not when combine it with column index ex.
+```python
+df.iloc[[1, '2']] is fine
+
+df.iloc[[1, 2], [1, '2']] is error
+```
+
+**Thoughts**: Continue to learn after complete numpy for better understand.
+
+**Pomodoros**: 2
+
 
 
 

@@ -48,3 +48,28 @@ print(cars.iloc[:, [2]])
 
 # Print out cars_per_cap and drives_right as DataFrame
 print(cars.loc[:, ['cars_per_cap', 'drives_right']])
+
+
+
+### filter data
+# step
+# 1. get column to series.
+# 2. do a condition expresstion like >, <, logical_and, logical_or.
+# 3. subset df, apply that expresstion to dataframe to get only data that meet condition.
+# Example
+# cpc = cars['cars_per_cap']
+# between = np.logical_and(cpc > 10, cpc < 80)
+# medium = cars[between]
+
+# Import cars data
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Create car_maniac: observations that have a cars_per_cap over 500
+car_maniac = cars[cars['cars_per_cap'] > 500]
+
+# Create medium: observations with cars_per_cap between 100 and 500
+medium = cars[np.logical_and(cars['cars_per_cap'] > 100, cars['cars_per_cap'] < 500)]
+
+# Print car_maniac
+print(car_maniac)

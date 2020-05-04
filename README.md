@@ -1441,6 +1441,26 @@ df.iloc[[1, 2], [1, '2']] is error
 
 **Pomodoros**: 2
 
+## Day 125: Sep 4, 2020
+
+**TIL**: Learn how to use df to filter data and use and, or in numpy and df.
+* Dataframe build on top of Numpy.
+* filter data step
+  1. Get column to series.
+  2. Do a condition expresstion like >, <, logical_and, logical_or.
+  3. Subset df, apply that expresstion to dataframe to get only data that meet condition.
+```python
+cpc = cars['cars_per_cap']
+between = np.logical_and(cpc > 10, cpc < 80)
+# or use between = cpc >= 10
+cars_medium = cars[between]
+# sometime prefer on line like this
+cars_medium = cars[np.logical_and(cpc > 10, cpc < 80)]
+```
+
+**Thoughts**: It very easy to use.
+
+**Pomodoros**: 1
 
 
 

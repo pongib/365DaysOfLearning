@@ -1463,6 +1463,41 @@ cars_medium = cars[np.logical_and(cpc > 10, cpc < 80)]
 **Pomodoros**: 1
 
 
+## Day 126: Sep 5, 2020
+
+**TIL**: Review how to loop such while, for, for with dictionary and loop through numpy array.
+* Dictionary are unorderd.
+```python
+# Definition of dictionary
+europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin',
+          'norway':'oslo', 'italy':'rome', 'poland':'warsaw', 'austria':'vienna' }
+          
+# Iterate over europe
+for k, v in europe.items():
+    print("the capital of "+k+" is "+v)
+
+    # it will print, see it unorder
+    # the capital of austria is vienna
+    # the capital of poland is warsaw
+    # the capital of norway is oslo
+    # the capital of france is paris
+    # the capital of spain is madrid
+    # the capital of italy is rome
+    # the capital of germany is berlin  
+```
+* Use np.nditer(np_array) to look at element in n dimension array. It will print first column untill finish then print second column.
+```python
+for x in np.nditer(np_baseball):
+    print(x)
+```
+
+**Thoughts**: I learn at night almost week and half make me feel sick and my memory are inefficiency.
+
+**Pomodoros**: 1
+
+
+
+
 
 
 

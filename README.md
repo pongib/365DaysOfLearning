@@ -1363,7 +1363,7 @@ l.append(l)
 * iloc use for index.
 * dataframe can select column by array_df[['column_name']] and row with array_df[1:4].
 * but with loc and iloc can use to select column, row or both with one function.
-* array_df.loc[['column_name1', 'column_name2'], ['row1_label', 'row2_label']]
+* array_df.loc[['row1_label', 'row2_label'], ['column_name1', 'column_name2']]
 
 **Thoughts**: I forget numpy array will learn it first and continue on dataframe.
 
@@ -1496,12 +1496,15 @@ for x in np.nditer(np_baseball):
 **Pomodoros**: 1
 
 
+## Day 127: Sep 6, 2020
 
+**TIL**: Learn how to loop through dataframe and add column.
+* Loop using df.iterrows() will return label and row, that row is series.
+* Can use apply(function) for better performance (not use loop).
+* Can loop through series directly it look like array list.
+**Thoughts**: I found myself very curious about that syntax and datatype that return from syntax both numpy, series, dataframe, loc, iloc.
 
-
-
-
-
+**Pomodoros**: 2
 
 
 

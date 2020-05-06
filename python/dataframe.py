@@ -73,3 +73,81 @@ medium = cars[np.logical_and(cars['cars_per_cap'] > 100, cars['cars_per_cap'] < 
 
 # Print car_maniac
 print(car_maniac)
+
+
+# All different type
+# Dataframe
+In[4]: cars.loc[['US'], ['cars_per_cap']]
+Out[4]: 
+    cars_per_cap
+US           809
+# Series
+In [5]: cars.loc[['US'], 'cars_per_cap']
+Out[5]: 
+US    809
+Name: cars_per_cap, dtype: int64
+# Numpy int64 it return that data type.
+In [6]: cars.loc['US', 'cars_per_cap']
+Out[6]: 809
+
+In [7]: type(cars.loc['US', 'cars_per_cap'])
+Out[7]: numpy.int64
+
+In [8]: type(cars.loc[['US'], 'cars_per_cap'])
+Out[8]: pandas.core.series.Series
+
+In [9]: type(cars.loc[['US'], ['cars_per_cap']])
+Out[9]: pandas.core.frame.DataFrame
+
+In [10]: type(cars.loc['US', ['cars_per_cap']])
+Out[10]: pandas.core.series.Series
+
+
+
+
+# Use loop through dataframe
+# And add column to df.
+
+# Import cars data
+import pandas as pd
+cars = pd.read_csv('cars.csv', index_col = 0)
+
+# Use normal for and row is series
+# access row['country'] return string.
+# access row['cars_per_cap'] return <class 'numpy.int64'> for digit.
+# access row['drives_right'] return <class 'numpy.bool_'> for boolean.
+# Below is example of Dataframe.
+#      cars_per_cap   country  drives_right COUNTRY
+# US    809    United States     True   UNITED STATES
+# This cars.loc[lab, "COUNTRY"] will create new column string.
+for lab, row in cars.iterrows():
+    cars.loc[lab, "COUNTRY"] = row["country"].upper()
+
+# Use .apply(str.upper) without for loop.
+# This is faster than for loop because it not create series everytime
+# it apply str.upper on each element and return array that store to series in one time.
+cars['COUNTRY'] = cars['country'].apply(str.upper)
+
+# Can loop through series object.
+for c in cars['country']:
+    print(c)
+    # it print each country from series
+    # United States
+    # Australia
+    # Japan
+    # India
+    # Russia
+    # Morocco
+    # Egypt
+
+print(cars)
+
+# THIS IS cars after add column
+#     cars_per_cap        country  drives_right        COUNTRY
+# US            809  United States          True  UNITED STATES
+# AUS           731      Australia         False      AUSTRALIA
+# JPN           588          Japan         False          JAPAN
+# IN             18          India         False          INDIA
+# RU            200         Russia          True         RUSSIA
+# MOR            70        Morocco          True        MOROCCO
+# EG             45          Egypt          True          EGYPT

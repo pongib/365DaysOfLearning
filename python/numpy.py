@@ -45,16 +45,15 @@ np_weight_lb = np_baseball[:,1]
 # Print out height of 124th player
 print(np_baseball[123,1])
 
-
 import numpy as np
 np_mat = np.array([[1, 2],
                    [3, 4],
                    [5, 6]])
 np_mat * 2
 
-array([[ 2,  4],
-       [ 6,  8],
-       [10, 12]])
+# array([[ 2,  4],
+#        [ 6,  8],
+#        [10, 12]])
 
 np_mat + np.array([10, 10])
 # array([[11, 12],

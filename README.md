@@ -1506,6 +1506,17 @@ for x in np.nditer(np_baseball):
 
 **Pomodoros**: 2
 
+## Day 128: Sep 7, 2020
+
+**TIL**: Learn how to use random in numpy.
+* np.random.seed() can set or not set seed, If set it will random same number every call, it mean can reproduce. Ex np.random.seed(123).
+* np.random.randint(1, 7) random int number from 1 - 6 not include 7.
+* np.random.rand() just random decimal number.
+
+**Thoughts**: Not much for today feeling lost my opportunity.
+
+**Pomodoros**: 1
+
 
 
 

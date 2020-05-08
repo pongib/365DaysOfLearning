@@ -1518,5 +1518,11 @@ for x in np.nditer(np_baseball):
 **Pomodoros**: 1
 
 
+## Day 129: Sep 8, 2020
 
+**TIL**: Implement that randoms walk and create graph with mathplot lib.
+* plt.plot(x, y) if add argument only x like plt.plot(list) it will use index of list as x axis and value as y axis.
 
+**Thoughts**: A little progress and still learn very late it feel like I pay my debt with lowest possible.
+
+**Pomodoros**: 1

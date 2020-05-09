@@ -1526,3 +1526,15 @@ for x in np.nditer(np_baseball):
 **Thoughts**: A little progress and still learn very late it feel like I pay my debt with lowest possible.
 
 **Pomodoros**: 1
+
+## Day 130: Sep 9, 2020
+
+**TIL**: Do lab till finish and learn how to use histrogram and bin and np.transpose.
+* plt.hist(data, bins=5) bins is split data into bins chunk number.
+* hist is use for see distribution of your data how it look like.
+* np.transpose to swap row to column and column to row.
+
+**Thoughts**: It make sense for this lab for play and use all I learn to figure it out.
+
+**Pomodoros**: 2
+

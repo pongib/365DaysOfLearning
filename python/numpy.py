@@ -157,3 +157,6 @@ for height in np_height:
 # it will print 74,72,72,...,75,75,73 then print 180,215,210,...,205,190,195
 for x in np.nditer(np_baseball):
     print(x)
+
+# for transpose metric such (100, 2) to (2, 100)
+np_baseball_t = np.transpose(np_baseball)

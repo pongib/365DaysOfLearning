@@ -1538,3 +1538,17 @@ for x in np.nditer(np_baseball):
 
 **Pomodoros**: 2
 
+## Day 131: Sep 10, 2020
+
+**TIL**: Do a project TV, Halftime Shows, and the Big Game in datacamp with use of all intermediate course and a bit data manipulate.
+* Maybe data thing is from curiosity that what you need to know.
+* Can select column from dot or key Ex. no_bands.num_songs == no_bands['num_songs']
+* Know how to filter out NaN wit dropna() Ex. no_bands['num_songs'].dropna()
+* Filter text by using str.contains Ex. halftime_musicians[~halftime_musicians.musician.str.contains('Marching')]
+* Know how to sort with sort_values('column', ascending=False) Ex. no_bands.sort_values('num_songs', ascending=False)
+* Sub plot graph with plt.subplot(Number_graph, 1, index) Ex. plt.subplot(3, 1, 1)
+
+**Thoughts**: Project base is make my intuition very sharp. It connect dot of knowledge together and make it useful.
+
+**Pomodoros**: 4
+

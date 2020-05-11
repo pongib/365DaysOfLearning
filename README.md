@@ -1552,3 +1552,17 @@ for x in np.nditer(np_baseball):
 
 **Pomodoros**: 4
 
+## Day 132: Sep 11, 2020
+
+**TIL**: Learn about basic dataframe again with expand.
+* It consist of 3 component values is data values, index row is row index and row label, column is index of columns that is column name Ex df.values, df.index, df.columns.
+* df.describe() is very useful for show basic stat of this df data.
+* df.sort_values(['columns1', 'columns2'], ascending=[True, False]) it sort with chunk of data not all data.
+* Filter with expression and is & or is | it can't use and, or literally.
+* If filter multiple variable on one column use df[df['column'].isin(['value1', 'value2'])] for short hand, full is 
+df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenthesis () is very important.
+
+**Thoughts**: Step up a littile knowledge.
+
+**Pomodoros**: 2
+

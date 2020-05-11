@@ -151,3 +151,63 @@ print(cars)
 # RU            200         Russia          True         RUSSIA
 # MOR            70        Morocco          True        MOROCCO
 # EG             45          Egypt          True          EGYPT
+
+
+
+
+## GET DETAIL
+# Print the head of the homelessness data
+print(homelessness.head())
+
+# Print information about homelessness
+print(homelessness.info())
+
+# Print the shape of homelessness
+print(homelessness.shape)
+
+# Print a description of homelessness
+print(homelessness.describe())
+
+# Print the values of homelessness
+print(homelessness.values)
+
+# Print the column index of homelessness
+print(homelessness.columns)
+
+# Print the row index of homelessness
+print(homelessness.index)
+
+
+# Sort homelessness by descending family members
+homelessness_fam = homelessness.sort_values('family_members', ascending=False)
+
+# Sort homelessness by region, then descending family members
+homelessness_reg_fam = homelessness.sort_values(['region', 'family_members'], ascending=[True, False])
+
+# Print the top few rows
+print(homelessness_reg_fam.head())
+
+
+# Select multiple column the state and family_members columns
+state_fam = homelessness[['state', 'family_members']]
+
+# filter 2 expreestion with & "and" operator don't forget () for each expression.
+# Filter for rows where family_members is less than 1000 
+# and region is Pacific
+fam_lt_1k_pac = homelessness[(homelessness['family_members'] < 1000) & (homelessness['region'] == 'Pacific')]
+
+# See the result
+print(fam_lt_1k_pac)
+
+
+# Select multiple variable from one column.
+# Subset for rows in South Atlantic or Mid-Atlantic regions
+
+south_mid_atlantic = homelessness[(homelessness['region'] == 'South Atlantic') | (homelessness['region'] == "Mid-Atlantic")]
+
+# Short hand to
+
+south_mid_atlantic = homelessness[homelessness['region'].isin(['South Atlantic', 'Mid-Atlantic'])]
+
+# See the result
+print(south_mid_atlantic)

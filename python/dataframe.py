@@ -211,3 +211,21 @@ south_mid_atlantic = homelessness[homelessness['region'].isin(['South Atlantic',
 
 # See the result
 print(south_mid_atlantic)
+
+##################
+# Add new column #
+##################
+
+# Add total col as sum of individuals and family_members
+homelessness['total'] = homelessness['individuals'] + homelessness['family_members']
+
+# Create indiv_per_10k col as homeless individuals per 10k state pop
+# WAY to calculate number of homeless individuals per 10,000 people in the state
+# face 10000 people will see how many homeless.
+homelessness["indiv_per_10k"] = 10000 * homelessness['individuals'] / homelessness['state_pop']
+
+# Add p_individuals col as proportion of individuals
+homelessness['p_individuals'] = homelessness['individuals'] / homelessness['total']
+
+# See the result
+print(homelessness)

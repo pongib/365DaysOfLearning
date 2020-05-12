@@ -1558,11 +1558,28 @@ for x in np.nditer(np_baseball):
 * It consist of 3 component values is data values, index row is row index and row label, column is index of columns that is column name Ex df.values, df.index, df.columns.
 * df.describe() is very useful for show basic stat of this df data.
 * df.sort_values(['columns1', 'columns2'], ascending=[True, False]) it sort with chunk of data not all data.
-* Filter with expression and is & or is | it can't use and, or literally.
+* Filter with expression and is & or is | it can't use "and", "or" literally.
 * If filter multiple variable on one column use df[df['column'].isin(['value1', 'value2'])] for short hand, full is 
 df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenthesis () is very important.
 
 **Thoughts**: Step up a littile knowledge.
 
 **Pomodoros**: 2
+
+## Day 133: Sep 12, 2020
+
+**TIL**: Learn about add new column and learn how to use python in automate way.
+* homelessness.sort_values(['total', 'p_individuals'], ascending=[False, False]) same value type in this is float it will priority first array (index 0) to make it happen to true condition for example this will sort descending total column and doesn't care about p_individuals, and vice versa.
+* Most common types of data manipulation: sorting rows, subsetting columns (column select), subsetting rows (row select by condition expresstion), and adding new columns. In a real-life data analysis, you can mix and match these four manipulations to answer a multitude of questions.
+* Just know way to calculte this question Number of homeless individuals per 10,000 people in the state or when you face 10000 people, How many homeless you will see? It easy just use homelessness["indiv_per_10k"] = 10000 * homelessness['individuals'] / homelessness['state_pop']
+* Know about send email with python to do an automate task and it can calculate more than excel and graph boke is better than mathplot. [This is link that I learn](https://youtu.be/vmUgaNaJfIs).
+
+**Thoughts**: Do a lot of work today and feel like robot haha I need more automate skill.
+
+**Pomodoros**: 2
+
+
+
+
+
 

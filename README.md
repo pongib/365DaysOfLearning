@@ -1578,6 +1578,25 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 
 **Pomodoros**: 2
 
+## Day 134: Sep 12, 2020
+
+**TIL**: Learn about JWE, JWS that is part of JWT this [link](https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3).
+* Just know about JWE it like encrypt token and send it with key.
+* Contain 5 part 
+  1. JOSE is header part.
+  2. Key that encrypted use for encrypt JSON context and it encrypted by RSA algorithm for send key.
+  3. Initial vector it like nounce for encrypt same context but result will not same.
+  4. Encrypted context this encrypted by key in 2.
+  5. Signature that come form encrypt process of 4.
+* I think it can't use with clound endpoint.
+* JWS is simple just signature and payload like JWT that I known.
+* Compact serialization is dot separate of JWE and JWS.
+* Do SQL assessment and got 110 from 300 feel WTF haha. Fortunately it doesn't show correct answer for improvement.
+
+**Thoughts**: This SQL assessment make me feel I don't really know to write SQL at all, nevermind I will try to be better.
+
+**Pomodoros**: 2
+
 
 
 

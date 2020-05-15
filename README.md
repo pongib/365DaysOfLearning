@@ -1578,7 +1578,7 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 
 **Pomodoros**: 2
 
-## Day 134: Sep 12, 2020
+## Day 134: Sep 13, 2020
 
 **TIL**: Learn about JWE, JWS that is part of JWT this [link](https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3).
 * Just know about JWE it like encrypt token and send it with key.
@@ -1596,6 +1596,14 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 **Thoughts**: This SQL assessment make me feel I don't really know to write SQL at all, nevermind I will try to be better.
 
 **Pomodoros**: 2
+
+## Day 135: Sep 14, 2020
+
+**TIL**: Learn how to use basic stat in df and use cummulative of it and df[['cl1', 'cl2']].agg(custom_fuction) is like apply function but it dynamic can use with custom function.
+
+**Thoughts**: I feel lack of statistic knowledge that I cannot look data and see their meaning. And df.describe() is very useful to see all basic stat at once.
+
+**Pomodoros**: 1
 
 
 

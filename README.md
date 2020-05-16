@@ -1605,6 +1605,16 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 
 **Pomodoros**: 1
 
+## Day 136: Sep 15, 2020
+
+**TIL**: Count values per column and drop duplicate values.
+* sales.drop_duplicates(subset=['store', 'department']) can drop single or multiple column.
+* departments['department_num'].value_counts(sort=True, normalize=True) normalize is very useful to see percentage of each values.
+
+**Thoughts**: I cannot remember command in video in first time and need to switch back to see and then go to type again.
+
+**Pomodoros**: 1
+
 
 
 

@@ -1621,11 +1621,14 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 **TIL**: Lern how to use groupby and pivot table.
 * pivot is just another way to do groupby, it can see all data at once and can deal with NaN data.
 * pivot default is mean().
-* df.pivot_table(values, index, column, agg_function, fill_values, margins) index is group by column, column is another groupby, agg function is like agg in groupby it can add function to it like np.median and margins is sum of all row and column and see it at once.
+* df.pivot_table(values='weekly_sales', index='type', column='department', aggfunc=[np.mean, np.median], fill_value=0, margins=True) index is group by column, column is another groupby, agg function is like agg in groupby it can add function to it like np.median and margins is sum of all row and column and see it at once.
+* Group by is like in sql way can use with multiple function.
+* sales.groupby(['type', 'is_holiday'])[['unemployment', 'fuel_price_usd_per_l']].agg([np.min, np.max, np.mean, np.median])
+* for access multiple groupby is allg.iloc[1,0] and label is allg.loc[('A', True), ('unemployment', 'amin')] use tuple as key for access.
 
-**Thoughts**: I cannot remember command in video in first time and need to switch back to see and then go to type again.
+**Thoughts**: It make more fun when just think beyond scopre and try to figure it out.
 
-**Pomodoros**: 1
+**Pomodoros**: 3
 
 
 

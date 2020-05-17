@@ -82,10 +82,6 @@ holiday_dates = sales[sales['is_holiday']].drop_duplicates(subset='date')
 print(holiday_dates['date'])
 
 
-
-
-
-
 ### PIVOT
 # Import NumPy as np
 import numpy as np
@@ -104,6 +100,9 @@ print(mean_med_sales_by_type)
 
 # Print mean weekly_sales by department and type; fill missing values with 0
 print(sales.pivot_table(values='weekly_sales', index='department', columns='type', fill_value=0))
+
+# Print the mean weekly_sales by department and type; fill missing values with 0s; sum all rows and cols
+print(sales.pivot_table(values="weekly_sales", index="department", columns="type", fill_value=0, margins=True))
 
 
 #### Group by
@@ -171,3 +170,19 @@ print(unemp_fuel_stats)
 # type                                                                            
 # A           3.879  8.992  7.973  8.067                0.664  1.107  0.745  0.735
 # B           7.170  9.765  9.279  9.199                0.760  1.108  0.806  0.803
+
+# try to fill all I learn today at once.
+allgroup = sales.groupby(['type', 'is_holiday'])[['unemployment', 'fuel_price_usd_per_l']].agg([np.min, np.max, np.mean, np.median])
+print(allgroup)
+print(allgroup.shape) # (4, 8)
+#                                      unemployment                      fuel_price_usd_per_l                     
+#                         amin   amax   mean median                 amin   amax   mean median
+# type is_holiday                                                                            
+# A    False             3.879  8.992  7.973  8.067                0.664  1.107  0.744  0.735
+#      True              5.143  8.992  7.835  7.925                0.673  1.077  0.815  0.814
+# B    False             7.170  9.765  9.281  9.199                0.760  1.108  0.806  0.803
+#      True              7.874  9.199  8.537  8.537                0.782  0.993  0.888  0.888
+
+print(allg.iloc[1,0]) # 5.143
+# label multiple group by column use tuple as key can know by use allgroup.index for column is allgroup.columns
+print(allg.loc[('A', True), ('unemployment', 'amin')]) # 5.143

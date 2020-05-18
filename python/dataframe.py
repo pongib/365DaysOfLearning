@@ -229,3 +229,6 @@ homelessness['p_individuals'] = homelessness['individuals'] / homelessness['tota
 
 # See the result
 print(homelessness)
+
+
+

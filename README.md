@@ -1631,6 +1631,37 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 **Pomodoros**: 3
 
 
+## Day 138: Sep 16, 2020
+
+**TIL**: Change column to index and make access index with loc easier then use isin function.
+* Easier like 
+```python
+# have index for make code clean
+dogs[dogs['name'].isin(['Bella', 'Stella'])]
+to 
+dogs.set_index('name') # change column name to index
+dogs.loc[['Bella', 'Stella']]
+```
+* df.set_index('cl1') to change cl1 to index.
+* df.reset_index() discard index, change index back to column.
+* df.reset_index(drop=True) will delete column that used to be index.
+* Multi level index is make index more than one column df.set_index(['cl1', 'cl2']) can access with tuple df.loc[[('cl1', 'cl2')]]
+* sort_index is like sort_values except it use for index and key is level not values like 
+df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
+* It good to know index but it break the "tidy data" principle that data have it own column but index isn't have their own column.
+* If make all column as index and drop all of it, it will remain just array of row number like this [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+**Thoughts**: I need to find some project to do that can recall my learning and make it strong memory.
+
+**Pomodoros**: 2
+
+
+
+
+
+
+
+
 
 
 

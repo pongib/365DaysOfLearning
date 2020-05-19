@@ -1655,6 +1655,16 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 2
 
+## Day 139: Sep 17, 2020
+
+**TIL**: Learn how to slice again but this time is very useful when use with date.
+* _Note that because the date isn't set as an index, a condition that contains only a year, such as df['date'] == '2009', will check if the date is equal to the first day of the first month of the year (e.g. 2009-01-01), rather than checking whether the date occurs within the given year. Sum up (df['date'] == '2009') == (df['date'] == '2009-01-01')
+* You can only slice an index if the index is sorted.
+* The important thing to remember is to keep your dates in ISO 8601 format, that is, yyyy-mm-dd.
+
+**Thoughts**: Use with date is very useful.
+
+**Pomodoros**: 2
 
 
 

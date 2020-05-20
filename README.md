@@ -1666,6 +1666,20 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 2
 
+## Day 140: Sep 17, 2020
+
+**TIL**: Learn how to slice pivot table it like in dataframe.
+* A pivot table is just a DataFrame with sorted indexes, pivot are automatic sort so can use loc without sort first.
+* Can also subset date with column not just index.
+* axis in mean of pivot is like which index or column you want to compute, if axis='columns' it will colapse all into index vice versa. Ex. temp_by_country_city_vs_year.mean(axis='columns')
+* dataframe["column"].dt.month will select only month from column data, dataframe["column"].dt.year will select only year from column data. This useful when you want to use with date column Ex. temperatures['year'] = temperatures['date'].dt.year add new column only year from date column.
+
+**Thoughts**: Not much for today have a lot of work to do.
+
+**Pomodoros**: 1
+
+
+
 
 
 

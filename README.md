@@ -1631,7 +1631,7 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 **Pomodoros**: 3
 
 
-## Day 138: Sep 16, 2020
+## Day 138: Sep 17, 2020
 
 **TIL**: Change column to index and make access index with loc easier then use isin function.
 * Easier like 
@@ -1655,7 +1655,7 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 2
 
-## Day 139: Sep 17, 2020
+## Day 139: Sep 18, 2020
 
 **TIL**: Learn how to slice again but this time is very useful when use with date.
 * _Note that because the date isn't set as an index, a condition that contains only a year, such as df['date'] == '2009', will check if the date is equal to the first day of the first month of the year (e.g. 2009-01-01), rather than checking whether the date occurs within the given year. Sum up (df['date'] == '2009') == (df['date'] == '2009-01-01')
@@ -1666,7 +1666,7 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 2
 
-## Day 140: Sep 17, 2020
+## Day 140: Sep 19, 2020
 
 **TIL**: Learn how to slice pivot table it like in dataframe.
 * A pivot table is just a DataFrame with sorted indexes, pivot are automatic sort so can use loc without sort first.
@@ -1678,14 +1678,14 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 1
 
+## Day 141: Sep 20, 2020
 
+**TIL**: Learn how to visualize with mathplotlib and use plot function.
+* Scatter plots are ideal for visualizing relationships between numerical variables.
+* df.plot(x='cl1', y='cl2', kind='scatter', rot=45) can plot line and scatter, rot is x axis label to rotate how much degree.
+* alpha near 0 in histogram mean more tranparent and near 1 is opaque. df['cl1'].hist(alpha=0.5, bins=20)
 
+**Thoughts**: I didn't know how to read data from graph much.
 
-
-
-
-
-
-
-
+**Pomodoros**: 1
 

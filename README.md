@@ -1689,3 +1689,12 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 1
 
+
+## Day 142: Sep 20, 2020
+
+**TIL**: Learn how to handle missing value with basic
+* df.dropna and df.fillna(value)
+
+**Thoughts**: It kind of slow progess but review old knowledge
+
+**Pomodoros**: 1

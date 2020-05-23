@@ -71,3 +71,11 @@ print(temperatures_ind.loc[rows_to_keep])
 #          Lahore         2013-08-01      31.511
 #          Lahore         2013-09-01         NaN
 
+# Sort temperatures_ind by index values
+print(temperatures_ind.sort_index())
+
+# Sort temperatures_ind by index values at the city level
+print(temperatures_ind.sort_index(level='city'))
+
+# Sort temperatures_ind by country then descending city
+print(temperatures_ind.sort_index(level=['country', 'city'], ascending=[True, False]))

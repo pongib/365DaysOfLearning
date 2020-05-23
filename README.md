@@ -1391,7 +1391,7 @@ np.array([1,2,3]) > 3 = np.array([False,False,True])
 
 **Pomodoros**: 0.5
 
-## Day 122: Sep 1, 2020
+## Day 122: May 1, 2020
 
 **TIL**: Hand on numpy 2D array.
 * Mostly like 1D array but have slice and sugar syntax with np_array[row, column]
@@ -1416,7 +1416,7 @@ array([[11, 12],
 
 **Pomodoros**: 1
 
-## Day 123: Sep 2, 2020
+## Day 123: May 2, 2020
 
 **TIL**: Basic stat with numpy.
 * std, mean, median, corrcoef(column_list_1, column_list_2)
@@ -1425,7 +1425,7 @@ array([[11, 12],
 
 **Pomodoros**: 1
 
-## Day 124: Sep 3, 2020
+## Day 124: May 3, 2020
 
 **TIL**: Use loc and iloc in dataframe and series.
 * It like 2D numpy array except it need .loc or .iloc not use directly.
@@ -1441,7 +1441,7 @@ df.iloc[[1, 2], [1, '2']] is error
 
 **Pomodoros**: 2
 
-## Day 125: Sep 4, 2020
+## Day 125: May 4, 2020
 
 **TIL**: Learn how to use df to filter data and use and, or in numpy and df.
 * Dataframe build on top of Numpy.
@@ -1463,7 +1463,7 @@ cars_medium = cars[np.logical_and(cpc > 10, cpc < 80)]
 **Pomodoros**: 1
 
 
-## Day 126: Sep 5, 2020
+## Day 126: May 5, 2020
 
 **TIL**: Review how to loop such while, for, for with dictionary and loop through numpy array.
 * Dictionary are unorderd.
@@ -1496,7 +1496,7 @@ for x in np.nditer(np_baseball):
 **Pomodoros**: 1
 
 
-## Day 127: Sep 6, 2020
+## Day 127: May 6, 2020
 
 **TIL**: Learn how to loop through dataframe and add column.
 * Loop using df.iterrows() will return label and row, that row is series.
@@ -1506,7 +1506,7 @@ for x in np.nditer(np_baseball):
 
 **Pomodoros**: 2
 
-## Day 128: Sep 7, 2020
+## Day 128: May 7, 2020
 
 **TIL**: Learn how to use random in numpy.
 * np.random.seed() can set or not set seed, If set it will random same number every call, it mean can reproduce. Ex np.random.seed(123).
@@ -1518,7 +1518,7 @@ for x in np.nditer(np_baseball):
 **Pomodoros**: 1
 
 
-## Day 129: Sep 8, 2020
+## Day 129: May 8, 2020
 
 **TIL**: Implement that randoms walk and create graph with mathplot lib.
 * plt.plot(x, y) if add argument only x like plt.plot(list) it will use index of list as x axis and value as y axis.
@@ -1527,7 +1527,7 @@ for x in np.nditer(np_baseball):
 
 **Pomodoros**: 1
 
-## Day 130: Sep 9, 2020
+## Day 130: May 9, 2020
 
 **TIL**: Do lab till finish and learn how to use histrogram and bin and np.transpose.
 * plt.hist(data, bins=5) bins is split data into bins chunk number.
@@ -1538,7 +1538,7 @@ for x in np.nditer(np_baseball):
 
 **Pomodoros**: 2
 
-## Day 131: Sep 10, 2020
+## Day 131: May 10, 2020
 
 **TIL**: Do a project TV, Halftime Shows, and the Big Game in datacamp with use of all intermediate course and a bit data manipulate.
 * Maybe data thing is from curiosity that what you need to know.
@@ -1552,7 +1552,7 @@ for x in np.nditer(np_baseball):
 
 **Pomodoros**: 4
 
-## Day 132: Sep 11, 2020
+## Day 132: May 11, 2020
 
 **TIL**: Learn about basic dataframe again with expand.
 * It consist of 3 component values is data values, index row is row index and row label, column is index of columns that is column name Ex df.values, df.index, df.columns.
@@ -1566,7 +1566,7 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 
 **Pomodoros**: 2
 
-## Day 133: Sep 12, 2020
+## Day 133: May 12, 2020
 
 **TIL**: Learn about add new column and learn how to use python in automate way.
 * homelessness.sort_values(['total', 'p_individuals'], ascending=[False, False]) same value type in this is float it will priority first array (index 0) to make it happen to true condition for example this will sort descending total column and doesn't care about p_individuals, and vice versa.
@@ -1578,7 +1578,7 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 
 **Pomodoros**: 2
 
-## Day 134: Sep 13, 2020
+## Day 134: May 13, 2020
 
 **TIL**: Learn about JWE, JWS that is part of JWT this [link](https://medium.facilelogin.com/jwt-jws-and-jwe-for-not-so-dummies-b63310d201a3).
 * Just know about JWE it like encrypt token and send it with key.
@@ -1597,7 +1597,7 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 
 **Pomodoros**: 2
 
-## Day 135: Sep 14, 2020
+## Day 135: May 14, 2020
 
 **TIL**: Learn how to use basic stat in df and use cummulative of it and df[['cl1', 'cl2']].agg(custom_fuction) is like apply function but it dynamic can use with custom function.
 
@@ -1605,7 +1605,7 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 
 **Pomodoros**: 1
 
-## Day 136: Sep 15, 2020
+## Day 136: May 15, 2020
 
 **TIL**: Count values per column and drop duplicate values.
 * sales.drop_duplicates(subset=['store', 'department']) can drop single or multiple column.
@@ -1616,7 +1616,7 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 **Pomodoros**: 1
 
 
-## Day 137: Sep 16, 2020
+## Day 137: May 16, 2020
 
 **TIL**: Lern how to use groupby and pivot table.
 * pivot is just another way to do groupby, it can see all data at once and can deal with NaN data.
@@ -1631,7 +1631,7 @@ df[(df['column'] == 'value1') | (df['column'] == 'value2')] don't forget parenth
 **Pomodoros**: 3
 
 
-## Day 138: Sep 17, 2020
+## Day 138: May 17, 2020
 
 **TIL**: Change column to index and make access index with loc easier then use isin function.
 * Easier like 
@@ -1655,7 +1655,7 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 2
 
-## Day 139: Sep 18, 2020
+## Day 139: May 18, 2020
 
 **TIL**: Learn how to slice again but this time is very useful when use with date.
 * _Note that because the date isn't set as an index, a condition that contains only a year, such as df['date'] == '2009', will check if the date is equal to the first day of the first month of the year (e.g. 2009-01-01), rather than checking whether the date occurs within the given year. Sum up (df['date'] == '2009') == (df['date'] == '2009-01-01')
@@ -1666,7 +1666,7 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 2
 
-## Day 140: Sep 19, 2020
+## Day 140: May 19, 2020
 
 **TIL**: Learn how to slice pivot table it like in dataframe.
 * A pivot table is just a DataFrame with sorted indexes, pivot are automatic sort so can use loc without sort first.
@@ -1678,7 +1678,7 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 1
 
-## Day 141: Sep 20, 2020
+## Day 141: May 20, 2020
 
 **TIL**: Learn how to visualize with mathplotlib and use plot function.
 * Scatter plots are ideal for visualizing relationships between numerical variables.
@@ -1690,11 +1690,26 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 **Pomodoros**: 1
 
 
-## Day 142: Sep 20, 2020
+## Day 142: May 21, 2020
 
 **TIL**: Learn how to handle missing value with basic
 * df.dropna and df.fillna(value)
+* df.isna().any() will show each column whether it have NaN or not, show as boolean.
+* df.isna().sum() will show each column with sum of NaN.
+* avocados_complete.isna().sum() can plot grapht like this avocados_complete.isna().sum().plot(kind='bar')
 
-**Thoughts**: It kind of slow progess but review old knowledge
+**Thoughts**: It kind of slow progess but review old knowledge and that plot will make more clear about NaN in your data.
+
+**Pomodoros**: 2
+
+## Day 143: May 22, 2020
+
+**TIL**: Learn how to create manual dataframe and read and write csv.
+* Can use list of dictionaries or dictionary of lists to create df object by use pd.DataFrame(list_of_dict)
+* Can read csv by use pd.read_csv('filename.csv')
+* Can write csv by use df.to_csv('filename_to_save.csv')
+
+**Thoughts**: Dictionary of list is intuitive for tabular data than list of dict.
 
 **Pomodoros**: 1
+

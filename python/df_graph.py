@@ -129,6 +129,11 @@ plt.show()
 # Remove rows with missing values
 avocados_complete = avocados_2016.dropna()
 
+# Remove specific rows with missing values
+avocados_complete = avocados_2016.dropna(subset=['small_sold', 'large_sold'])
+
+
+
 # Check if any columns contain missing values
 print(avocados_complete.isna().any())
 

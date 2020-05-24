@@ -1693,7 +1693,7 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 ## Day 142: May 21, 2020
 
 **TIL**: Learn how to handle missing value with basic
-* df.dropna and df.fillna(value)
+* df.dropna(subset=['cl1', 'cl2']) and df.fillna(value)
 * df.isna().any() will show each column whether it have NaN or not, show as boolean.
 * df.isna().sum() will show each column with sum of NaN.
 * avocados_complete.isna().sum() can plot grapht like this avocados_complete.isna().sum().plot(kind='bar')
@@ -1713,3 +1713,12 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 **Pomodoros**: 1
 
+
+## Day 144: May 23, 2020
+
+**TIL**: Do project that user seaborn and plotly.
+* A good practice is to always use the info() function on your dataframe before beginning any analysis. This method prints information about the dataframe including the column data types, non-null values and memory usage.
+
+**Thoughts**: I see a lot of technique that beyond from learning lesson.
+
+**Pomodoros**: 3

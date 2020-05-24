@@ -1716,9 +1716,41 @@ df.sort_index(level=['cl1', 'cl2'], ascending=[True, False])
 
 ## Day 144: May 23, 2020
 
-**TIL**: Do project that user seaborn and plotly.
-* A good practice is to always use the info() function on your dataframe before beginning any analysis. This method prints information about the dataframe including the column data types, non-null values and memory usage.
+**TIL**: Do project that user seaborn and plotly, personally plotly is way better and more interactive.
+* A good practice is to always use the info() to see type that not suitable such "price" but type is object, this should convert to correct type such float.
+* len(apps['App'].unique()) use for count total value of column.
+* Change data type that not suitable and remove non useful character like $ , + in value is very useful.
+* astype() method is used to cast a pandas object to a specified dtype
+```python
+# List of characters to remove
+chars_to_remove = [',', '$', '+']
+# List of column names to clean that column is object that not suitable it must be float.
+cols_to_clean = ['Installs', 'Price']
+# Loop for each column
+for col in cols_to_clean:
+    # Replace each character with an empty string
+    for char in chars_to_remove: # astype() method is used to cast a pandas object to a specified dtype
+        apps[col] = apps[col].astype(str).str.replace(char, '')
+    # Convert col to numeric
+    apps[col] = pd.to_numeric(apps[col]) 
+```
+* Filter rows where both Rating and Size values are not null 
+```python
+apps[(~apps['Rating'].isnull()) & (~apps['Size'].isnull())] 
+```
+use ~ combine with isnull() for select only not null value.
+* Can use filter after groupby for select groupby size more that x number.
+Note not select or calculate any column after groupby.
+```py
+apps_with_size_and_rating_present.groupby('Category').filter(lambda x: len(x) >= 250).reset_index()
+```
+* Sum ups.
+  * Check data type that correct or not.
+  * Remove null or unwant character.
+  * Make assumption from data.
+  * Select data for make graph mostly is data for x and y axis.
+  * Plot graph and read result.
 
-**Thoughts**: I see a lot of technique that beyond from learning lesson.
+**Thoughts**: I see a lot of technique that beyond from learning lesson that very useful for tackle real world data.
 
-**Pomodoros**: 3
+**Pomodoros**: 4

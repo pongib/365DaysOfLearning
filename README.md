@@ -1754,3 +1754,13 @@ apps_with_size_and_rating_present.groupby('Category').filter(lambda x: len(x) >=
 **Thoughts**: I see a lot of technique that beyond from learning lesson that very useful for tackle real world data.
 
 **Pomodoros**: 4
+
+
+## Day 145: May 24, 2020
+
+**TIL**: Learn how to load muliple csv file with list comprehensive and reindex it like join when use other index as our index.
+
+**Thoughts**: It like basic join when use other index as our index in reindex() and how to load list is very useful.
+
+**Pomodoros**: 1.5
+

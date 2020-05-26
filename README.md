@@ -1759,8 +1759,30 @@ apps_with_size_and_rating_present.groupby('Category').filter(lambda x: len(x) >=
 ## Day 145: May 24, 2020
 
 **TIL**: Learn how to load muliple csv file with list comprehensive and reindex it like join when use other index as our index.
+* Comprehensive like
+```py
+dataframes2 = [pd.read_csv(file) for file in filenames]
+print(dataframes2[0].head())
+```
+* medals = gold.copy() for copy df object.
+* Can replace df with new column Ex. medals.columns = ['NOC', 'Country', 'Gold']
+this change from Index(['NOC', 'Country', 'Total'], dtype='object') to Index(['NOC', 'Country', 'Gold'], dtype='object')
+* Use index_col to specific column to be index when read csv Ex. `pd.read_csv('monthly_max_temp.csv', index_col='Month')`
+* df.reindex(index_list) will return only index list with current df value, not have value will result to NaN but still have that index.
+* df.ffill() stand for forward fill, will replace NaN with value before it that not NaN and replace till see next not NaN value.
 
 **Thoughts**: It like basic join when use other index as our index in reindex() and how to load list is very useful.
 
 **Pomodoros**: 1.5
+
+
+## Day 146: May 25, 2020
+
+**TIL**: Learn how to do + - * / (arithmetic) in df with function
+* Remember, ordinary arithmetic operators (like +, -, *, and /) broadcast scalar values to conforming DataFrames when combining scalars & DataFrames in arithmetic expressions. Broadcasting also works with pandas Series and NumPy arrays.
+
+**Thoughts**: It very useful when date is index.
+
+**Pomodoros**: 2
+
 

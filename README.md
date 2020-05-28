@@ -1778,11 +1778,48 @@ this change from Index(['NOC', 'Country', 'Total'], dtype='object') to Index(['N
 
 ## Day 146: May 25, 2020
 
-**TIL**: Learn how to do + - * / (arithmetic) in df with function
+**TIL**: Learn how to do + - * / (arithmetic) to broadcast in df with function
 * Remember, ordinary arithmetic operators (like +, -, *, and /) broadcast scalar values to conforming DataFrames when combining scalars & DataFrames in arithmetic expressions. Broadcasting also works with pandas Series and NumPy arrays.
+* It very trick for change via str function and can use all str function can do.
+`temps_c.columns = temps_c.columns.str.replace('F', 'C')`
+* Need parse_dates=True when use with data index.
+`pd.read_csv('GDP.csv', index_col='DATE', parse_dates=True)`
+* Resample is just like groupby with select date time.
+'A' is anually, can be 3D mean select every 3 day of data from date. it combine with stat function like mean. 
+[Ref](https://www.w3resource.com/pandas/series/series-resample.php)
+.last() mean select last observation, can combo with time like df.last('3D') selct only last 3 calendar day from data.
+`yearly = post2008.resample('A').last()`
+* It better than * (multiply) only because it more control with axis to calculate, normally it should same column for * to work, Can do with only series but can't with df.
+pounds = dollars.multiply(exchange['GBP/USD'], axis='rows')
 
-**Thoughts**: It very useful when date is index.
+**Ref**:
+  * [Code](python/df_arithmetic.py)
+  * Slide [MERGING DATAFRAMES WITH PANDAS - Arithmetic](python/slide/datacamp/merging_df_with_pandas.pdf)
+
+**Thoughts**: It very useful when date is index. And [w3pandas](https://www.w3resource.com/pandas/index.php) is awesome it have visual and code example.
 
 **Pomodoros**: 2
 
 
+## Day 147: May 26, 2020
+
+**TIL**: Learn about concat and append in both Datafram and Series
+* concat is more useful than append because it can control axis to compute. Ex.
+```python
+# 1 mean columns or horizontal
+# 0 mean rows or vertical (default)
+weather = pd.concat(weather_list, axis=1)
+```
+* append reset index use df1.append(df2).reset_index(drop=True) or df1.append(df2, ignore_index=True)
+* concat reset index use pd.concat([df1, df2], ignore_index=True)
+* Can iloc with date like this `quarter1.loc['jan 27, 2015':'feb 2, 2015']`
+* `medal_df = pd.read_csv(file_name, header=0, index_col='Country', names=['Country', 'goal'])`
+  * names use for change column name, this time is from ['Country', 'Total'] to ['Country', 'goal']
+  * header make that row as header but I didn't know this benefit
+
+**Ref**: 
+  * [Code](python/df_concat_append.py)
+
+**Thoughts**: I didn't watch video because it stuck, and try to read from doc and do an exercise.
+
+**Pomodoros**: 2

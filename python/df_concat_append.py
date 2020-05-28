@@ -1,0 +1,97 @@
+# Import pandas
+import pandas as pd
+
+# Load 'sales-jan-2015.csv' into a DataFrame: jan
+jan = pd.read_csv('sales-jan-2015.csv', parse_dates=True, index_col='Date')
+
+# Load 'sales-feb-2015.csv' into a DataFrame: feb
+feb = pd.read_csv('sales-feb-2015.csv', parse_dates=True, index_col='Date')
+
+# Load 'sales-mar-2015.csv' into a DataFrame: mar
+mar = pd.read_csv('sales-mar-2015.csv', parse_dates=True, index_col='Date')
+
+# Extract the 'Units' column from jan: jan_units
+jan_units = jan['Units']
+
+# Extract the 'Units' column from feb: feb_units
+feb_units = feb['Units']
+
+# Extract the 'Units' column from mar: mar_units
+mar_units = mar['Units']
+
+# Append feb_units and then mar_units to jan_units: quarter1
+quarter1 = jan_units.append(feb_units).append(mar_units)
+
+
+# Print the first slice from quarter1
+print(quarter1.loc['jan 27, 2015':'feb 2, 2015'])
+
+# Print the second slice from quarter1
+print(quarter1.loc['feb 26, 2015': 'mar 7, 2015'])
+
+# Compute & print total sales in quarter1
+print(quarter1.sum())
+
+# Initialize empty list: units
+units = []
+
+# Build the list of Series
+for month in [jan, feb, mar]:
+    units.append(month['Units'])
+
+# Concatenate the list: quarter1
+quarter1 = pd.concat(units)
+
+# Print slices from quarter1
+print(quarter1.loc['jan 27, 2015':'feb 2, 2015'])
+print(quarter1.loc['feb 26, 2015':'mar 7, 2015'])
+
+
+
+# Add 'year' column to names_1881 and names_1981
+names_1881['year'] = 1881
+names_1981['year'] = 1981
+
+# Append names_1981 after names_1881 with ignore_index=True: combined_names
+combined_names = names_1881.append(names_1981, ignore_index=True)
+# or use 
+combined_names = names_1881.append(names_1981).reset_index(drop=True)
+
+# Print shapes of names_1981, names_1881, and combined_names
+print(names_1981.shape)
+print(names_1881.shape)
+print(combined_names.shape)
+
+# Print all rows that contain the name 'Morgan'
+print(combined_names[combined_names['name'] == 'Morgan'])
+
+
+# Create a list of weather_max and weather_mean
+weather_list = [weather_max, weather_mean]
+
+# Concatenate weather_list horizontally
+weather = pd.concat(weather_list, axis=1)
+
+# Print weather
+print(weather)
+
+
+
+''#Initialize an empyy list: medals
+medals =[]
+
+for medal in medal_types:
+    # Create the file name: file_name
+    file_name = "%s_top5.csv" % medal
+    # Create list of column names: columns
+    columns = ['Country', medal]
+    # Read file_name into a DataFrame: medal_df
+    medal_df = pd.read_csv(file_name, header=0, index_col='Country', names=columns)
+    # Append medal_df to medals
+    medals.append(medal_df)
+
+# Concatenate medals horizontally: medals_df
+medals_df = pd.concat(medals, axis='columns')
+
+# Print medals_df
+print(medals_df)

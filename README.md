@@ -1784,7 +1784,7 @@ this change from Index(['NOC', 'Country', 'Total'], dtype='object') to Index(['N
 `temps_c.columns = temps_c.columns.str.replace('F', 'C')`
 * Need parse_dates=True when use with data index.
 `pd.read_csv('GDP.csv', index_col='DATE', parse_dates=True)`
-* Resample is just like groupby with select date time.
+* Resample is just like groupby with select date time, mostly use when key is datetime.
 'A' is anually, can be 3D mean select every 3 day of data from date. it combine with stat function like mean. 
 [Ref](https://www.w3resource.com/pandas/series/series-resample.php)
 .last() mean select last observation, can combo with time like df.last('3D') selct only last 3 calendar day from data.
@@ -1823,3 +1823,39 @@ weather = pd.concat(weather_list, axis=1)
 **Thoughts**: I didn't watch video because it stuck, and try to read from doc and do an exercise.
 
 **Pomodoros**: 2
+
+
+## Day 148: May 27, 2020
+
+**TIL**: Learn how to slice with inner level index only.
+* `medals_sorted.loc[pd.IndexSlice[:, 'United Kingdom'], :]` for slice by specific inner index can use in both axis index row and index columns.
+* `pd.concat(dataframes, axis=1, keys=['Hardware', 'Software', 'Service'])` key for apply outter level index in that df. axis use for concat on verticle or horizontal.
+* `month_data.groupby('Company').sum()` it group on that key and make every columns that is number calculate on that stat function like sum, mean.
+**Ref**: 
+  * [Code](python/df_concat_append.py)
+
+**Thoughts**: I try to put keys on 2 layer it success but can't slice with pd.IndexSlice properly.
+
+**Pomodoros**: 2
+
+
+## Day 149: May 28, 2020
+
+**TIL**: join type inner and outer.
+* inner is like intersect in set, intersect between index can be row or column depend on axis If axis = 0 verticle it will see columns index but axis=1 horizontal it will index by row index.
+* outer is like union in set.
+* pct_change and resample if want to compare it value it must corresponding. Ex.
+```py
+china = china.resample('A').last().pct_change(10).dropna()
+# it calculate percentage with offset 10 for each value
+# to show in resample with 10 anual (decate) that corresponding.
+print(china.resample('10A').last())
+```
+**Ref**: 
+  * [Code](python/df_concat_append.py)
+
+**Thoughts**: It very important to process data and show that relate each other.
+
+**Pomodoros**: 1
+
+

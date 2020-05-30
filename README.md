@@ -1841,7 +1841,7 @@ weather = pd.concat(weather_list, axis=1)
 
 ## Day 149: May 28, 2020
 
-**TIL**: join type inner and outer.
+**TIL**: df.concat([df1, df2], join='inner') join type inner and outer, default is outer.
 * inner is like intersect in set, intersect between index can be row or column depend on axis If axis = 0 verticle it will see columns index but axis=1 horizontal it will index by row index.
 * outer is like union in set.
 * pct_change and resample if want to compare it value it must corresponding. Ex.
@@ -1855,6 +1855,28 @@ print(china.resample('10A').last())
   * [Code](python/df_concat_append.py)
 
 **Thoughts**: It very important to process data and show that relate each other.
+
+**Pomodoros**: 1
+
+## Day 150: May 29, 2020
+
+**TIL**: Use df.merge it like join with columns name but mostly it don't have index row, it use default row number.
+* df.merge use columns name that same name for join and will find intersect value.
+* I think different than df.concat is df.merge don't have row index but df.concat have row index.
+* Merge it look for columns index only and default is inner join but keyword use "how" Ex.`df.merge(df1, df2, how='outer')`.
+* Use left_on and right_on when df don't have same columns name. Ex.
+```py
+pd.merge(revenue, managers, left_on='city', right_on='branch')
+# Can be multiple columns
+pd.merge(revenue, managers, left_on=['city', 'change'], right_on=['branch', 'state'])
+```
+* `revenue = revenue.drop(columns='state')` Use df.drop(column='cl1') for drop column, argument can be vary.
+* Can merge on multiple column Ex. `pd.merge(revenue, managers, on=['branch_id', 'city', 'state'])`
+
+**Ref**: 
+  * [Code](python/df_merge.py)
+
+**Thoughts**: Sometime I feel lazy for do sum-up here. After this change 1 pomodoro to 51 min.
 
 **Pomodoros**: 1
 

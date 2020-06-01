@@ -37,3 +37,68 @@ combined = pd.merge(revenue, managers, on=['branch_id', 'city', 'state'])
 
 # Print combined
 print(combined)
+
+
+# Merge revenue and sales: revenue_and_sales
+revenue_and_sales = pd.merge(revenue, sales, on=['city', 'state'], how='right')
+
+# Print revenue_and_sales
+print(revenue_and_sales)
+
+# Merge sales and managers: sales_and_managers
+sales_and_managers = pd.merge(sales, managers, left_on=['city', 'state'], right_on=['branch', 'state'], how='left')
+
+# Print sales_and_managers
+print(sales_and_managers)
+
+# Perform the first merge: merge_default
+merge_default = pd.merge(sales_and_managers, revenue_and_sales)
+
+# Print merge_default
+print(merge_default)
+
+# Perform the second merge: merge_outer
+merge_outer = pd.merge(sales_and_managers, revenue_and_sales, how='outer')
+
+# Print merge_outer
+print(merge_outer)
+
+# Perform the third merge: merge_outer_on
+merge_outer_on = pd.merge(sales_and_managers, revenue_and_sales, on=['city', 'state'], how='outer')
+
+# Print merge_outer_on
+print(merge_outer_on)
+
+
+# Perform the first ordered merge: tx_weather
+tx_weather = pd.merge_ordered(austin, houston)
+
+# Print tx_weather
+print(tx_weather)
+
+# Perform the second ordered merge: tx_weather_suff
+tx_weather_suff = pd.merge_ordered(austin, houston, on='date', suffixes=['_aus', '_hus'])
+
+# Print tx_weather_suff
+print(tx_weather_suff)
+
+# Perform the third ordered merge: tx_weather_ffill
+tx_weather_ffill = pd.merge_ordered(austin, houston, on='date', suffixes=['_aus', '_hus'], fill_method='ffill')
+
+# Print tx_weather_ffill
+print(tx_weather_ffill)
+
+# Merge auto and oil: merged
+merged = pd.merge_asof(auto, oil, left_on='yr', right_on='Date')
+
+# Print the tail of merged
+print(merged.tail())
+
+# Resample merged: yearly
+yearly = merged.resample('A', on='Date')[['mpg', 'Price']].mean()
+
+# Print yearly
+print(yearly)
+
+# print yearly.corr()
+print(yearly.corr())

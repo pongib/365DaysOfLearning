@@ -1880,4 +1880,25 @@ pd.merge(revenue, managers, left_on=['city', 'change'], right_on=['branch', 'sta
 
 **Pomodoros**: 1
 
+## Day 151: May 30, 2020
+
+**TIL**: Learn join but do lab only merge LOL.
+* ffill if start is null later is still null it not help when timeseries statr with null
+* df1.join(df2) will join on row index so it should have index row like concat.
+* pd.merge_ordered(df1, df2) default join is outer different from pd.merge(df1, df2) that default is inner.
+* pd.merge_ordered(df1, df2) is sorted like lexicography, it mean sort like litteral dictionary (it real dictionary book).
+* left_on and right_on can be list. Ex. `pd.merge(sales, managers, left_on=['city', 'state'], right_on=['branch', 'state'], how='left')`
+* how in merge is left, right, inner, outer default is inner.
+* resample can specific column by using "on" Ex.`merged.resample('A', on='Date')[['mpg', 'Price']].mean()`
+
+**Ref**: 
+  * [Code](python/df_merge.py)
+
+**Thoughts**: I think I need to direct learn to fast.ai. My learning still very late.
+
+**Pomodoros**: 1
+
+
+
+
 

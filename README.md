@@ -1890,13 +1890,36 @@ pd.merge(revenue, managers, left_on=['city', 'change'], right_on=['branch', 'sta
 * left_on and right_on can be list. Ex. `pd.merge(sales, managers, left_on=['city', 'state'], right_on=['branch', 'state'], how='left')`
 * how in merge is left, right, inner, outer default is inner.
 * resample can specific column by using "on" Ex.`merged.resample('A', on='Date')[['mpg', 'Price']].mean()`
+* df1.join(df2) both must have row index.
 
 **Ref**: 
   * [Code](python/df_merge.py)
 
-**Thoughts**: I think I need to direct learn to fast.ai. My learning still very late.
+**Thoughts**: I think I need to direct learn to fast.ai. My learning still very late. And df1.join(df2) is kind of not useful if you can do with merge.
 
 **Pomodoros**: 1
+
+## Day 152: Jun 2, 2020
+
+**TIL**: Learn frontend basic with html and element in it.
+* Contain of DOCTYPE html for tell browser that use html5.
+  * html
+  * head contain information such title and css style.
+  * body contain thing that want to show.
+* br tag stand for break.
+* alt in img tag for alternative text when image cannot display. `<img src="notfound.jpeg" alt="This will show.">`
+* target _blank in a tag for open new tab `<a href="https://chomchob.com" target="_blank">Go to chomchob with new tab</a><br>`
+* a tag can be internal file or external link. `<a href="logo.jpg" target="_blank">Access to internal file.</a>`
+**Ref**: 
+  * [Code](frontend/project/clone-blog-post/index.html)
+
+**Thoughts**: I think I need to learn frontend for paid my debt first before follow my passion and it very hurt that I can't do what I want because I have no money to much. This time for learn is DDD Debt Driven Developmemt.
+
+**Pomodoros**: 1
+
+
+
+
 
 
 

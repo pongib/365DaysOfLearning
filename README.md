@@ -1912,10 +1912,39 @@ pd.merge(revenue, managers, left_on=['city', 'change'], right_on=['branch', 'sta
 * a tag can be internal file or external link. `<a href="logo.jpg" target="_blank">Access to internal file.</a>`
 **Ref**: 
   * [Code](frontend/project/clone-blog-post/index.html)
+  * [People face Generator](https://randomuser.me/)
+  * [Mockup Text Generator](https://www.blindtextgenerator.com/lorem-ipsum)
 
 **Thoughts**: I think I need to learn frontend for paid my debt first before follow my passion and it very hurt that I can't do what I want because I have no money to much. This time for learn is DDD Debt Driven Developmemt.
 
 **Pomodoros**: 1
+
+
+## Day 153: Jun 4, 2020
+
+**TIL**: Just know about RGB color and attribute in it.
+* RGB = #RRGGBB max is ff(255) min 0, Ex. Red is #ff0000, Green = #00ff00, Blue = #0000ff. mix it is yellow = red + green = #ffff00
+* if all value are the same Ex. #555555 just use #555.
+* color can have opacity like  rgba(38, 46, 135, 0.92);
+* Use class for specific element can be multiple, use id for one element. But good practice is always use class not use id because we don't know future yet.
+* Use # for selector id and . for selector class.
+* Block element such h1 it have their own line break (<br>) and full width.
+* inline element such strong, a tag don't have line break (<br>).
+* box-sizing: border-box; for use width and height to apply to border not content.
+* Learn abit about typescript.
+
+**Thoughts**: Just know abit about css and typescript.
+
+**Pomodoros**: 2
+
+
+
+
+
+
+
+
+
 
 
 

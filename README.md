@@ -1937,13 +1937,16 @@ pd.merge(revenue, managers, left_on=['city', 'change'], right_on=['branch', 'sta
 
 **Pomodoros**: 2
 
+## Day 154: Jun 5, 2020
 
+**TIL**: Learn about config of typescript and use eslint and nodemon.
+* Use tsc --watch for auto complie from ts to js.
+* Combo with nodemon will easy to develop with no overhead.
+* TS have source map for return error on ts file not just js.
 
+**Thoughts**: This typescript will improve my software skill a lot and it very fun to learn new thing.
 
-
-
-
-
+**Pomodoros**: 0.7
 
 
 

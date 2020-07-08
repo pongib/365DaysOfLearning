@@ -32,3 +32,9 @@ h2 {
   font-size: 17px;
   text-align: center;
 }
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}

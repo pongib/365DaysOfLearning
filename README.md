@@ -1948,6 +1948,51 @@ pd.merge(revenue, managers, left_on=['city', 'change'], right_on=['branch', 'sta
 
 **Pomodoros**: 0.7
 
+## Day 155: Jun 29, 2020
+
+**TIL**: Learn about basic typescript to discreminated union type.
+
+**Thoughts**: Long time didn't learn it make me feel lack something very important and back to use life as earlier that not productive.
+
+**Pomodoros**: 2
+
+## Day 156: Jun 30, 2020
+
+**TIL**: Jest and basic test and concept of TDD.
+
+**Thoughts**: I didn't write test for longtime. But still think it very useful tool for do a software.
+
+**Pomodoros**: 2
+
+## Day 157: Jul 1, 2020
+
+**TIL**: Lecture of testable architechture that goal is reliable small component glue together to whole system.
+
+**Thoughts**: I didn't realize how defenition of testable architecture is, and how to design good system. This ep is clarify me a lot.
+
+**Pomodoros**: 1.5
+
+## Day 158: Jul 5, 2020
+
+**TIL**: Watch how to do api with test and understand what clear line defind is.
+And make some hand dirty after watch whole video but still not finish lab yet because some code that break. And learn how to use supertest.
+
+**Thoughts**: It very flow process that watch whole video untill finish and do otherting for forgot it and try to write code after it, because it will recall from memory combine with understanding not just pure memory. And make me feel great when I refactor code and it didn't break result because it have test!!!
+
+**Pomodoros**: 2.5
+
+## Day 159: Jul 9, 2020
+
+**TIL**: Do an homework for ep4 that make me strongly realize that have test will make me to code very efficient, dare to change, dare to think better.
+* Learn about [esModuleInterop](https://stackoverflow.com/questions/56238356/understanding-esmoduleinterop-in-tsconfig-file) flag, just know that import, namespace it must be plain object not callable. And know way to combine commonjs with es6 module and make it callable.
+
+**Thoughts**: This time make me more focus and very enjoy when want to make code look better.
+
+**Pomodoros**: 3
+
+
+
+
 
 
 

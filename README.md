@@ -1990,6 +1990,33 @@ And make some hand dirty after watch whole video but still not finish lab yet be
 
 **Pomodoros**: 3
 
+## Day 160: Jul 22, 2020
+
+**TIL**: Learn lecture ep 6
+
+**Thoughts**: This time make me more focus and very enjoy when want to make code look better.
+
+**Pomodoros**: 3
+
+## Day 161: Jul 23, 2020
+
+**TIL**: Assignment ep6 and lecture
+* optional chaining
+
+**Thoughts**: 
+
+**Pomodoros**: 3
+
+## Day 162: Oct 14, 2020
+
+**TIL**: Learn how to use widget in python to create UI for predict bear model from fastai.
+
+**Thoughts**: It very fast, easy for demo and deploy model I will learn how to use it with binder tmr. But can't use voila in sagemaker because plugin is incompatible.
+
+**Pomodoros**: 2
+
+
+
 
 
 

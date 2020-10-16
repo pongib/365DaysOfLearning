@@ -2015,6 +2015,14 @@ And make some hand dirty after watch whole video but still not finish lab yet be
 
 **Pomodoros**: 2
 
+## Day 163: Oct 15, 2020
+
+**TIL**: Deploy to Binder with new repo and know about requirement.txt it like package.json in nodejs. Binder is very easy to show notebook and with voila it very greate interactive but I don't know how to layer it properly. Learn to use git repo in notebook sagemaker for push without fill in credential everytime.
+
+**Thoughts**: I will purchase book and review it for chapter 1 and 2 after finish video lesson 3. I want to do more and more.
+
+**Pomodoros**: 4
+
 
 
 

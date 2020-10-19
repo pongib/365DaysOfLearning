@@ -2024,6 +2024,15 @@ And make some hand dirty after watch whole video but still not finish lab yet be
 **Pomodoros**: 4
 
 
+## Day 164: Oct 19, 2020
+
+**TIL**: It kind of a little deep dive for just MNIST data set. First just create baseline but it very fun thing that accuracy is 95% by just easy math and not use deep learning concept at all. Learn about broadcasting that operate more element wise with easy syntax and do it under the hood. And know a bit about tensor in pytorch.
+
+**Thoughts**: I need to read a book for better understanding because this time is quite more detail even it just little deep dive.
+
+**Pomodoros**: 2
+
+
 
 
 

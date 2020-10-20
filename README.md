@@ -2032,6 +2032,16 @@ And make some hand dirty after watch whole video but still not finish lab yet be
 
 **Pomodoros**: 2
 
+## Day 165: Oct 19, 2020
+
+**ML**: Gradient = slope, I just know it. I hear a concept about fine minimal error rate by diff graph to find bottom but I don't understand it clear till this day. I know why we need to diff becase we need to go to bottom and one thing that can indicate is slope and similar name is gradient. And word descent it mean fall of droping that character to find lowest loss.
+
+**TRADE** I learn about trading and how to use CDC action zone in trading view. That answer me a lot when I have doubt why I not buy on that past situation and see price soar, because I don't have system that clear enough, when to buy when to sell so I just learn form CDC because it very easy to understand.
+
+**Thoughts**: I very excited that I found trading setup like this. I will learn how to backtest. About ML I will get my hand dirty for use tensor in calculate loss and calculate gradient.
+
+**Pomodoros**: 6
+
 
 
 

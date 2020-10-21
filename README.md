@@ -2032,7 +2032,7 @@ And make some hand dirty after watch whole video but still not finish lab yet be
 
 **Pomodoros**: 2
 
-## Day 165: Oct 19, 2020
+## Day 165: Oct 21, 2020
 
 **ML**: Gradient = slope, I just know it. I hear a concept about fine minimal error rate by diff graph to find bottom but I don't understand it clear till this day. I know why we need to diff becase we need to go to bottom and one thing that can indicate is slope and similar name is gradient. And word descent it mean fall of droping that character to find lowest loss.
 
@@ -2041,6 +2041,15 @@ And make some hand dirty after watch whole video but still not finish lab yet be
 **Thoughts**: I very excited that I found trading setup like this. I will learn how to backtest. About ML I will get my hand dirty for use tensor in calculate loss and calculate gradient.
 
 **Pomodoros**: 6
+
+## Day 166: Oct 22, 2020
+
+**TIL**: Just answer question in lesson 2 and know a bit on DataBlock and research about refresh token and know about RTR refresh token rotation to prevent stole token. And know about Proof Key for Code Exchange (PKCE) in oauth authorize code that I already seen implementation about code verify and code challenge in my job. It use when cannot store client secret in frontend. and use code challenge and verify instead.
+
+**Thoughts**: I spend too much time for research this token stuff and didn't spend on ML much. But it worth for my job it will reduce a lot of cost.
+
+**Pomodoros**: 3
+
 
 
 

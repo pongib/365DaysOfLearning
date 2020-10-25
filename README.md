@@ -2050,6 +2050,14 @@ And make some hand dirty after watch whole video but still not finish lab yet be
 
 **Pomodoros**: 3
 
+## Day 167: Oct 25, 2020
+
+**TIL**: Hand on in MNIST. Know about broadcasting in pytorch that sugar syntax and fast. L1, L2 (rmse) implement.
+
+**Thoughts**: It very low level for me now but it very fun and clear understand.
+
+**Pomodoros**: 4
+
 
 
 

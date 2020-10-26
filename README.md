@@ -2058,6 +2058,14 @@ And make some hand dirty after watch whole video but still not finish lab yet be
 
 **Pomodoros**: 4
 
+## Day 168: Oct 26, 2020
+
+**TIL**: Review lecture process for create model in 7 step. init -> predict -> loss -> gradient -> step -> repeat predict -> stop when find low loss.
+
+**Thoughts**: Will go hand on this in tmr for better understanding.
+
+**Pomodoros**: 1
+
 
 
 
